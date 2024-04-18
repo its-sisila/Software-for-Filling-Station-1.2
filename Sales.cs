@@ -10,27 +10,21 @@ using System.Windows.Forms;
 
 namespace Software_for_Filling_Station
 {
-    public partial class Form1 : Form
+    public partial class Sales : Form
     {
-        public Form1()
+        public Sales()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void debitPanel_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void submitButton_Click(object sender, EventArgs e)
+        private void pumpLP92_1_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void resetButton_Click(object sender, EventArgs e)
-        {
-            usernameText.Text = "";
-            passwordText.Text = "";
         }
     }
 }
