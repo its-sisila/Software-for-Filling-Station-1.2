@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.LP95_tank1_Label = new System.Windows.Forms.Label();
-            this.prevDipText = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.todayDipText = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dateTimeLP95_1 = new System.Windows.Forms.DateTimePicker();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.todayDipText = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.prevDipText = new System.Windows.Forms.TextBox();
+            this.LP95_tank1_Label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -117,6 +117,14 @@
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.label35 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -125,6 +133,7 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -146,53 +155,44 @@
             this.panel1.Size = new System.Drawing.Size(437, 283);
             this.panel1.TabIndex = 0;
             // 
-            // LP95_tank1_Label
+            // dateTimeLP95_1
             // 
-            this.LP95_tank1_Label.AutoSize = true;
-            this.LP95_tank1_Label.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LP95_tank1_Label.Location = new System.Drawing.Point(144, 14);
-            this.LP95_tank1_Label.Name = "LP95_tank1_Label";
-            this.LP95_tank1_Label.Size = new System.Drawing.Size(145, 22);
-            this.LP95_tank1_Label.TabIndex = 0;
-            this.LP95_tank1_Label.Text = "LP 95 Tank 01";
+            this.dateTimeLP95_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimeLP95_1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeLP95_1.Location = new System.Drawing.Point(86, 47);
+            this.dateTimeLP95_1.Name = "dateTimeLP95_1";
+            this.dateTimeLP95_1.Size = new System.Drawing.Size(284, 28);
+            this.dateTimeLP95_1.TabIndex = 9;
+            this.dateTimeLP95_1.ValueChanged += new System.EventHandler(this.dateTimeLP95_1_ValueChanged);
             // 
-            // prevDipText
+            // checkBox1
             // 
-            this.prevDipText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevDipText.Location = new System.Drawing.Point(212, 81);
-            this.prevDipText.Name = "prevDipText";
-            this.prevDipText.Size = new System.Drawing.Size(192, 27);
-            this.prevDipText.TabIndex = 1;
-            this.prevDipText.TextChanged += new System.EventHandler(this.prevDipText_TextChanged);
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(86, 245);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(296, 22);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "I\'m accountable for above Data I Entered";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // textBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Previous Day Dip";
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(212, 195);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(192, 27);
+            this.textBox1.TabIndex = 7;
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(26, 124);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Today\'s Day Dip";
-            // 
-            // todayDipText
-            // 
-            this.todayDipText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.todayDipText.Location = new System.Drawing.Point(212, 117);
-            this.todayDipText.Name = "todayDipText";
-            this.todayDipText.Size = new System.Drawing.Size(192, 27);
-            this.todayDipText.TabIndex = 4;
-            this.todayDipText.TextChanged += new System.EventHandler(this.todayDipText_TextChanged);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(26, 198);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(168, 20);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Difference (Dip Sale)";
             // 
             // button1
             // 
@@ -208,44 +208,53 @@
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // todayDipText
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 198);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 20);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Difference (Dip Sale)";
+            this.todayDipText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.todayDipText.Location = new System.Drawing.Point(212, 117);
+            this.todayDipText.Name = "todayDipText";
+            this.todayDipText.Size = new System.Drawing.Size(192, 27);
+            this.todayDipText.TabIndex = 4;
+            this.todayDipText.TextChanged += new System.EventHandler(this.todayDipText_TextChanged);
             // 
-            // textBox1
+            // label2
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(212, 195);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 27);
-            this.textBox1.TabIndex = 7;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(26, 124);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Today\'s Day Dip";
             // 
-            // checkBox1
+            // label1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(86, 245);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(296, 22);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "I\'m accountable for above Data I Entered";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Previous Day Dip";
             // 
-            // dateTimeLP95_1
+            // prevDipText
             // 
-            this.dateTimeLP95_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimeLP95_1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeLP95_1.Location = new System.Drawing.Point(86, 47);
-            this.dateTimeLP95_1.Name = "dateTimeLP95_1";
-            this.dateTimeLP95_1.Size = new System.Drawing.Size(284, 28);
-            this.dateTimeLP95_1.TabIndex = 9;
-            this.dateTimeLP95_1.ValueChanged += new System.EventHandler(this.dateTimeLP95_1_ValueChanged);
+            this.prevDipText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevDipText.Location = new System.Drawing.Point(212, 81);
+            this.prevDipText.Name = "prevDipText";
+            this.prevDipText.Size = new System.Drawing.Size(192, 27);
+            this.prevDipText.TabIndex = 1;
+            this.prevDipText.TextChanged += new System.EventHandler(this.prevDipText_TextChanged);
+            // 
+            // LP95_tank1_Label
+            // 
+            this.LP95_tank1_Label.AutoSize = true;
+            this.LP95_tank1_Label.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LP95_tank1_Label.Location = new System.Drawing.Point(144, 14);
+            this.LP95_tank1_Label.Name = "LP95_tank1_Label";
+            this.LP95_tank1_Label.Size = new System.Drawing.Size(145, 22);
+            this.LP95_tank1_Label.TabIndex = 0;
+            this.LP95_tank1_Label.Text = "LP 95 Tank 01";
             // 
             // panel2
             // 
@@ -1065,6 +1074,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label32.Font = new System.Drawing.Font("MS Reference Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(904, 9);
             this.label32.Name = "label32";
@@ -1072,12 +1082,102 @@
             this.label32.TabIndex = 8;
             this.label32.Text = "Inventory";
             // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel9.Controls.Add(this.label35);
+            this.panel9.Controls.Add(this.checkBox9);
+            this.panel9.Controls.Add(this.textBox23);
+            this.panel9.Controls.Add(this.label33);
+            this.panel9.Controls.Add(this.button9);
+            this.panel9.Controls.Add(this.comboBox1);
+            this.panel9.Controls.Add(this.label34);
+            this.panel9.Location = new System.Drawing.Point(776, 693);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(440, 251);
+            this.panel9.TabIndex = 9;
+            // 
+            // textBox23
+            // 
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox23.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(195, 112);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(171, 29);
+            this.textBox23.TabIndex = 4;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(69, 119);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(57, 22);
+            this.label33.TabIndex = 3;
+            this.label33.Text = "Liters";
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(222, 159);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(114, 36);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Received";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "LP 92",
+            "LAD",
+            "LP 95",
+            "LSD"});
+            this.comboBox1.Location = new System.Drawing.Point(195, 64);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(171, 30);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(60, 64);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(93, 22);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Fuel Type";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox9.Location = new System.Drawing.Point(73, 211);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(296, 22);
+            this.checkBox9.TabIndex = 9;
+            this.checkBox9.Text = "I\'m accountable for above Data I Entered";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(181, 15);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(86, 26);
+            this.label35.TabIndex = 10;
+            this.label35.Text = "Orders";
+            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.Controls.Add(this.panel9);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel7);
@@ -1106,6 +1206,8 @@
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1202,5 +1304,13 @@
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label34;
     }
 }

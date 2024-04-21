@@ -24,6 +24,7 @@ namespace Software_for_Filling_Station
             checkBox6.Checked = true;
             checkBox7.Checked = true;
             checkBox8.Checked = true;
+            checkBox9.Checked = true;
         }
 
         private void todayDipText_TextChanged(object sender, EventArgs e)

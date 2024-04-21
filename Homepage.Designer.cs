@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.orderLabel = new System.Windows.Forms.Label();
             this.usersLabel = new System.Windows.Forms.Label();
             this.logOutLabel = new System.Windows.Forms.Label();
             this.settingsLabel = new System.Windows.Forms.Label();
@@ -60,7 +59,6 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.DarkRed;
-            this.panel1.Controls.Add(this.orderLabel);
             this.panel1.Controls.Add(this.usersLabel);
             this.panel1.Controls.Add(this.logOutLabel);
             this.panel1.Controls.Add(this.settingsLabel);
@@ -71,13 +69,6 @@
             this.panel1.Controls.Add(this.attendanceLabel);
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // orderLabel
-            // 
-            this.orderLabel.BackColor = System.Drawing.Color.Brown;
-            resources.ApplyResources(this.orderLabel, "orderLabel");
-            this.orderLabel.ForeColor = System.Drawing.Color.White;
-            this.orderLabel.Name = "orderLabel";
             // 
             // usersLabel
             // 
@@ -254,7 +245,6 @@
         private System.Windows.Forms.Label ordersLabel;
         private System.Windows.Forms.Label usersLabel;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label orderLabel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView2;
     }

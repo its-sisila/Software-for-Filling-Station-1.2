@@ -122,43 +122,10 @@
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="orderLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="orderLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="orderLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 442</value>
-  </data>
-  <data name="orderLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>60, 16, 0, 0</value>
-  </data>
-  <data name="orderLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 56</value>
-  </data>
-  <data name="orderLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="orderLabel.Text" xml:space="preserve">
-    <value>Orders</value>
-  </data>
-  <data name="&gt;&gt;orderLabel.Name" xml:space="preserve">
-    <value>orderLabel</value>
-  </data>
-  <data name="&gt;&gt;orderLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;orderLabel.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;orderLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="usersLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="usersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -187,7 +154,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;usersLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="logOutLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -196,7 +163,7 @@
     <value>NoControl</value>
   </data>
   <data name="logOutLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 571</value>
+    <value>3, 513</value>
   </data>
   <data name="logOutLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -220,7 +187,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;logOutLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="settingsLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -229,7 +196,7 @@
     <value>NoControl</value>
   </data>
   <data name="settingsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 507</value>
+    <value>3, 446</value>
   </data>
   <data name="settingsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -253,7 +220,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;settingsLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="accountsLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -262,7 +229,7 @@
     <value>NoControl</value>
   </data>
   <data name="accountsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 378</value>
+    <value>3, 381</value>
   </data>
   <data name="accountsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -286,7 +253,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;accountsLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="salesLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -295,7 +262,7 @@
     <value>NoControl</value>
   </data>
   <data name="salesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 314</value>
+    <value>3, 315</value>
   </data>
   <data name="salesLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -319,7 +286,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;salesLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -352,7 +319,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="inventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -363,9 +330,6 @@
   <data name="inventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 250</value>
   </data>
-  <data name="inventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>60, 16, 0, 0</value>
-  </data>
   <data name="inventoryLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>242, 56</value>
   </data>
@@ -373,7 +337,10 @@
     <value>3</value>
   </data>
   <data name="inventoryLabel.Text" xml:space="preserve">
-    <value>Inventory</value>
+    <value>Inventory and Orders</value>
+  </data>
+  <data name="inventoryLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;inventoryLabel.Name" xml:space="preserve">
     <value>inventoryLabel</value>
@@ -385,7 +352,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;inventoryLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="attendanceLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -415,7 +382,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;attendanceLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-4, -4</value>
@@ -559,7 +526,7 @@
     <value>6</value>
   </data>
   <data name="stockGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 515</value>
+    <value>276, 509</value>
   </data>
   <data name="stockGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -595,7 +562,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 469</value>
+    <value>604, 473</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
