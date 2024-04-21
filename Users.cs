@@ -52,5 +52,12 @@ namespace Software_for_Filling_Station
         {
 
         }
+
+        private void Users_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'database1DataSet11.Users' table. You can move, or remove it, as needed.
+            this.usersTableAdapter.Fill(this.database1DataSet11.Users);
+
+        }
     }
 }

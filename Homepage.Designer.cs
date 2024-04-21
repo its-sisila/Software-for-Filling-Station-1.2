@@ -47,14 +47,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.ordersLabel = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attendanceGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.DarkRed;
             this.panel1.Controls.Add(this.orderLabel);
             this.panel1.Controls.Add(this.usersLabel);
@@ -65,7 +69,6 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.inventoryLabel);
             this.panel1.Controls.Add(this.attendanceLabel);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -113,6 +116,7 @@
             resources.ApplyResources(this.salesLabel, "salesLabel");
             this.salesLabel.ForeColor = System.Drawing.Color.White;
             this.salesLabel.Name = "salesLabel";
+            this.salesLabel.Click += new System.EventHandler(this.salesLabel_Click);
             // 
             // label4
             // 
@@ -139,9 +143,11 @@
             // 
             // webBrowser1
             // 
+            this.webBrowser1.IsWebBrowserContextMenuEnabled = false;
             resources.ApplyResources(this.webBrowser1, "webBrowser1");
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Url = new System.Uri("https://news.google.com/search?q=crude%20oil&hl=en-US&gl=US&ceid=US%3Aen", System.UriKind.Absolute);
+            this.webBrowser1.WebBrowserShortcutsEnabled = false;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // label1
@@ -188,11 +194,25 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView2, "dataGridView2");
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 28;
+            // 
             // Homepage
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ordersLabel);
             this.Controls.Add(this.label3);
@@ -210,6 +230,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.attendanceGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +255,7 @@
         private System.Windows.Forms.Label usersLabel;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label orderLabel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

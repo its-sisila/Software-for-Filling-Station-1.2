@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="orderLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -126,15 +130,14 @@
     <value>NoControl</value>
   </data>
   <data name="orderLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 552</value>
+    <value>3, 442</value>
   </data>
   <data name="orderLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="orderLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="orderLabel.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
@@ -160,13 +163,13 @@
     <value>NoControl</value>
   </data>
   <data name="usersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 76</value>
+    <value>3, 61</value>
   </data>
   <data name="usersLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>70, 20, 0, 0</value>
+    <value>62, 16, 0, 0</value>
   </data>
   <data name="usersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="usersLabel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -193,13 +196,13 @@
     <value>NoControl</value>
   </data>
   <data name="logOutLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 714</value>
+    <value>3, 571</value>
   </data>
   <data name="logOutLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="logOutLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="logOutLabel.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -226,13 +229,13 @@
     <value>NoControl</value>
   </data>
   <data name="settingsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 634</value>
+    <value>3, 507</value>
   </data>
   <data name="settingsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="settingsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="settingsLabel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -259,13 +262,13 @@
     <value>NoControl</value>
   </data>
   <data name="accountsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 472</value>
+    <value>3, 378</value>
   </data>
   <data name="accountsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="accountsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="accountsLabel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -292,13 +295,13 @@
     <value>NoControl</value>
   </data>
   <data name="salesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 392</value>
+    <value>3, 314</value>
   </data>
   <data name="salesLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="salesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="salesLabel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -325,13 +328,13 @@
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 234</value>
+    <value>3, 187</value>
   </data>
   <data name="label4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -358,13 +361,13 @@
     <value>NoControl</value>
   </data>
   <data name="inventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 313</value>
+    <value>3, 250</value>
   </data>
   <data name="inventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="inventoryLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="inventoryLabel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -388,13 +391,13 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="attendanceLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 155</value>
+    <value>3, 124</value>
   </data>
   <data name="attendanceLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>67, 20, 0, 0</value>
+    <value>60, 16, 0, 0</value>
   </data>
   <data name="attendanceLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 70</value>
+    <value>242, 56</value>
   </data>
   <data name="attendanceLabel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -415,10 +418,13 @@
     <value>8</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-4, -5</value>
+    <value>-4, -4</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 1005</value>
+    <value>253, 1067</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -433,16 +439,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1351, 71</value>
+    <value>1201, 57</value>
+  </data>
+  <data name="webBrowser1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="webBrowser1.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
+    <value>18, 16</value>
   </data>
   <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>552, 866</value>
+    <value>711, 904</value>
   </data>
   <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -457,7 +466,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;webBrowser1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -466,10 +475,10 @@
     <value>Microsoft Sans Serif, 14pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1438, 15</value>
+    <value>1440, 18</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>347, 32</value>
+    <value>302, 29</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -487,16 +496,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="attendanceGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 597</value>
+    <value>718, 57</value>
+  </data>
+  <data name="attendanceGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="attendanceGrid.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="attendanceGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>994, 376</value>
+    <value>427, 355</value>
   </data>
   <data name="attendanceGrid.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -511,7 +523,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;attendanceGrid.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -523,10 +535,10 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>687, 556</value>
+    <value>860, 22</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 29</value>
+    <value>140, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -544,16 +556,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="stockGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>829, 71</value>
+    <value>276, 515</value>
+  </data>
+  <data name="stockGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="stockGrid.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="stockGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>465, 444</value>
+    <value>869, 221</value>
   </data>
   <data name="stockGrid.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -568,7 +583,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;stockGrid.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -580,10 +595,10 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 28</value>
+    <value>604, 469</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 29</value>
+    <value>150, 25</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -601,7 +616,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="ordersLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -613,10 +628,10 @@
     <value>NoControl</value>
   </data>
   <data name="ordersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 28</value>
+    <value>369, 22</value>
   </data>
   <data name="ordersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 29</value>
+    <value>161, 25</value>
   </data>
   <data name="ordersLabel.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -634,16 +649,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ordersLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 71</value>
+    <value>267, 57</value>
+  </data>
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>454, 444</value>
+    <value>404, 355</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -658,6 +676,66 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>604, 762</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Today's Sales</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 803</value>
+  </data>
+  <data name="dataGridView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>869, 241</value>
+  </data>
+  <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
+    <value>dataGridView2</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -667,10 +745,13 @@
     <value>52</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1924, 985</value>
+    <value>1924, 1055</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Homepage</value>

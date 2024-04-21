@@ -50,7 +50,8 @@ namespace Software_for_Filling_Station
 
         private void inventoryLabel_Click(object sender, EventArgs e)
         {
-
+            Inventory inventory = new Inventory();
+            inventory.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -95,6 +96,12 @@ namespace Software_for_Filling_Station
         private void attendanceGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void salesLabel_Click(object sender, EventArgs e)
+        {
+            Sales sales = new Sales();
+            sales.Show();
         }
     }
 }
