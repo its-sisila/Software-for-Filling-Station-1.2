@@ -30,13 +30,13 @@
         {
             this.pumpLP92_1 = new System.Windows.Forms.Panel();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.shiftTimePickerLP92_1 = new System.Windows.Forms.DateTimePicker();
             this.label74 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.dateTimePickerLP92_1 = new System.Windows.Forms.DateTimePicker();
             this.submitButton = new System.Windows.Forms.Button();
             this.LP_92_1_Label = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.LP92_1_salesLKRText = new System.Windows.Forms.TextBox();
             this.LP92_1_salesRupeeLabel = new System.Windows.Forms.Label();
             this.LP92_1_salesLiterText = new System.Windows.Forms.TextBox();
             this.LP92_1_salesLiterLabel = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             this.label109 = new System.Windows.Forms.Label();
             this.dateTimePicker27 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker28 = new System.Windows.Forms.DateTimePicker();
-            this.button14 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_2 = new System.Windows.Forms.Button();
             this.label110 = new System.Windows.Forms.Label();
             this.textBox66 = new System.Windows.Forms.TextBox();
             this.label111 = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@
             this.label27 = new System.Windows.Forms.Label();
             this.dateTimePicker15 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker16 = new System.Windows.Forms.DateTimePicker();
-            this.button8 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_4 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
@@ -82,7 +82,7 @@
             this.label34 = new System.Windows.Forms.Label();
             this.dateTimePicker17 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker18 = new System.Windows.Forms.DateTimePicker();
-            this.button9 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_6 = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
@@ -98,7 +98,7 @@
             this.label56 = new System.Windows.Forms.Label();
             this.dateTimePicker21 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker22 = new System.Windows.Forms.DateTimePicker();
-            this.button11 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_8 = new System.Windows.Forms.Button();
             this.label57 = new System.Windows.Forms.Label();
             this.textBox38 = new System.Windows.Forms.TextBox();
             this.label58 = new System.Windows.Forms.Label();
@@ -114,7 +114,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker9 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker10 = new System.Windows.Forms.DateTimePicker();
-            this.button5 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_7 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -130,7 +130,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
-            this.button4 = new System.Windows.Forms.Button();
+            this.submitButtonLSD_1 = new System.Windows.Forms.Button();
             this.label39 = new System.Windows.Forms.Label();
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
@@ -146,8 +146,8 @@
             this.label45 = new System.Windows.Forms.Label();
             this.dateTimePicker19 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker20 = new System.Windows.Forms.DateTimePicker();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label46 = new System.Windows.Forms.Label();
+            this.submitButton95_1 = new System.Windows.Forms.Button();
+            this.LP_95_1_Label = new System.Windows.Forms.Label();
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.textBox35 = new System.Windows.Forms.TextBox();
@@ -162,7 +162,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.submitButton92_5 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -178,7 +178,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
-            this.button2 = new System.Windows.Forms.Button();
+            this.submitButton92_6 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -210,7 +210,7 @@
             this.label69 = new System.Windows.Forms.Label();
             this.dateTimePicker14 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker23 = new System.Windows.Forms.DateTimePicker();
-            this.button7 = new System.Windows.Forms.Button();
+            this.submitButton92_4 = new System.Windows.Forms.Button();
             this.label70 = new System.Windows.Forms.Label();
             this.textBox42 = new System.Windows.Forms.TextBox();
             this.label71 = new System.Windows.Forms.Label();
@@ -226,7 +226,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.dateTimePicker11 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker12 = new System.Windows.Forms.DateTimePicker();
-            this.button6 = new System.Windows.Forms.Button();
+            this.submitButton92_2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -242,7 +242,7 @@
             this.label81 = new System.Windows.Forms.Label();
             this.dateTimePicker24 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker25 = new System.Windows.Forms.DateTimePicker();
-            this.button12 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_5 = new System.Windows.Forms.Button();
             this.label82 = new System.Windows.Forms.Label();
             this.textBox46 = new System.Windows.Forms.TextBox();
             this.label83 = new System.Windows.Forms.Label();
@@ -258,7 +258,7 @@
             this.label88 = new System.Windows.Forms.Label();
             this.dateTimePicker26 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker29 = new System.Windows.Forms.DateTimePicker();
-            this.button13 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_3 = new System.Windows.Forms.Button();
             this.label89 = new System.Windows.Forms.Label();
             this.textBox50 = new System.Windows.Forms.TextBox();
             this.label90 = new System.Windows.Forms.Label();
@@ -274,7 +274,7 @@
             this.label95 = new System.Windows.Forms.Label();
             this.dateTimePicker30 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker31 = new System.Windows.Forms.DateTimePicker();
-            this.button15 = new System.Windows.Forms.Button();
+            this.submitButtonLAD_1 = new System.Windows.Forms.Button();
             this.label96 = new System.Windows.Forms.Label();
             this.textBox54 = new System.Windows.Forms.TextBox();
             this.label97 = new System.Windows.Forms.Label();
@@ -307,13 +307,13 @@
             this.pumpLP92_1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pumpLP92_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pumpLP92_1.Controls.Add(this.checkBox16);
-            this.pumpLP92_1.Controls.Add(this.dateTimePicker3);
+            this.pumpLP92_1.Controls.Add(this.shiftTimePickerLP92_1);
             this.pumpLP92_1.Controls.Add(this.label74);
             this.pumpLP92_1.Controls.Add(this.label73);
             this.pumpLP92_1.Controls.Add(this.dateTimePickerLP92_1);
             this.pumpLP92_1.Controls.Add(this.submitButton);
             this.pumpLP92_1.Controls.Add(this.LP_92_1_Label);
-            this.pumpLP92_1.Controls.Add(this.textBox2);
+            this.pumpLP92_1.Controls.Add(this.LP92_1_salesLKRText);
             this.pumpLP92_1.Controls.Add(this.LP92_1_salesRupeeLabel);
             this.pumpLP92_1.Controls.Add(this.LP92_1_salesLiterText);
             this.pumpLP92_1.Controls.Add(this.LP92_1_salesLiterLabel);
@@ -340,13 +340,13 @@
             this.checkBox16.Text = "I\'m accountable for above data I entered";
             this.checkBox16.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker3
+            // shiftTimePickerLP92_1
             // 
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker3.Location = new System.Drawing.Point(354, 44);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(107, 24);
-            this.dateTimePicker3.TabIndex = 17;
+            this.shiftTimePickerLP92_1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.shiftTimePickerLP92_1.Location = new System.Drawing.Point(354, 44);
+            this.shiftTimePickerLP92_1.Name = "shiftTimePickerLP92_1";
+            this.shiftTimePickerLP92_1.Size = new System.Drawing.Size(107, 24);
+            this.shiftTimePickerLP92_1.TabIndex = 17;
             // 
             // label74
             // 
@@ -402,15 +402,15 @@
             this.LP_92_1_Label.TabIndex = 9;
             this.LP_92_1_Label.Text = "LP 92 Nozzel 1";
             // 
-            // textBox2
+            // LP92_1_salesLKRText
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(133, 164);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(198, 26);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.LP92_1_salesLKRText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LP92_1_salesLKRText.Location = new System.Drawing.Point(133, 164);
+            this.LP92_1_salesLKRText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LP92_1_salesLKRText.Name = "LP92_1_salesLKRText";
+            this.LP92_1_salesLKRText.Size = new System.Drawing.Size(198, 26);
+            this.LP92_1_salesLKRText.TabIndex = 8;
+            this.LP92_1_salesLKRText.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // LP92_1_salesRupeeLabel
             // 
@@ -494,7 +494,7 @@
             this.panel17.Controls.Add(this.label109);
             this.panel17.Controls.Add(this.dateTimePicker27);
             this.panel17.Controls.Add(this.dateTimePicker28);
-            this.panel17.Controls.Add(this.button14);
+            this.panel17.Controls.Add(this.submitButtonLAD_2);
             this.panel17.Controls.Add(this.label110);
             this.panel17.Controls.Add(this.textBox66);
             this.panel17.Controls.Add(this.label111);
@@ -561,22 +561,22 @@
             this.dateTimePicker28.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker28.TabIndex = 12;
             // 
-            // button14
+            // submitButtonLAD_2
             // 
-            this.button14.AutoSize = true;
-            this.button14.BackColor = System.Drawing.Color.LightGray;
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(361, 83);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(90, 34);
-            this.button14.TabIndex = 11;
-            this.button14.Text = "Submit";
-            this.button14.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_2.AutoSize = true;
+            this.submitButtonLAD_2.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_2.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_2.Name = "submitButtonLAD_2";
+            this.submitButtonLAD_2.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_2.TabIndex = 11;
+            this.submitButtonLAD_2.Text = "Submit";
+            this.submitButtonLAD_2.UseVisualStyleBackColor = false;
             // 
             // label110
             // 
@@ -673,7 +673,7 @@
             this.panel6.Controls.Add(this.label27);
             this.panel6.Controls.Add(this.dateTimePicker15);
             this.panel6.Controls.Add(this.dateTimePicker16);
-            this.panel6.Controls.Add(this.button8);
+            this.panel6.Controls.Add(this.submitButtonLAD_4);
             this.panel6.Controls.Add(this.label28);
             this.panel6.Controls.Add(this.textBox22);
             this.panel6.Controls.Add(this.label29);
@@ -739,22 +739,23 @@
             this.dateTimePicker16.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker16.TabIndex = 12;
             // 
-            // button8
+            // submitButtonLAD_4
             // 
-            this.button8.AutoSize = true;
-            this.button8.BackColor = System.Drawing.Color.LightGray;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(361, 83);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(90, 34);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Submit";
-            this.button8.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_4.AutoSize = true;
+            this.submitButtonLAD_4.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_4.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_4.Name = "submitButtonLAD_4";
+            this.submitButtonLAD_4.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_4.TabIndex = 11;
+            this.submitButtonLAD_4.Text = "Submit";
+            this.submitButtonLAD_4.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_4.Click += new System.EventHandler(this.submitButtonLAD_4_Click);
             // 
             // label28
             // 
@@ -851,7 +852,7 @@
             this.panel7.Controls.Add(this.label34);
             this.panel7.Controls.Add(this.dateTimePicker17);
             this.panel7.Controls.Add(this.dateTimePicker18);
-            this.panel7.Controls.Add(this.button9);
+            this.panel7.Controls.Add(this.submitButtonLAD_6);
             this.panel7.Controls.Add(this.label35);
             this.panel7.Controls.Add(this.textBox26);
             this.panel7.Controls.Add(this.label51);
@@ -917,22 +918,23 @@
             this.dateTimePicker18.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker18.TabIndex = 12;
             // 
-            // button9
+            // submitButtonLAD_6
             // 
-            this.button9.AutoSize = true;
-            this.button9.BackColor = System.Drawing.Color.LightGray;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(361, 83);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(90, 34);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "Submit";
-            this.button9.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_6.AutoSize = true;
+            this.submitButtonLAD_6.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_6.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_6.Name = "submitButtonLAD_6";
+            this.submitButtonLAD_6.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_6.TabIndex = 11;
+            this.submitButtonLAD_6.Text = "Submit";
+            this.submitButtonLAD_6.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_6.Click += new System.EventHandler(this.submitButtonLAD_6_Click);
             // 
             // label35
             // 
@@ -1029,7 +1031,7 @@
             this.panel10.Controls.Add(this.label56);
             this.panel10.Controls.Add(this.dateTimePicker21);
             this.panel10.Controls.Add(this.dateTimePicker22);
-            this.panel10.Controls.Add(this.button11);
+            this.panel10.Controls.Add(this.submitButtonLAD_8);
             this.panel10.Controls.Add(this.label57);
             this.panel10.Controls.Add(this.textBox38);
             this.panel10.Controls.Add(this.label58);
@@ -1095,22 +1097,23 @@
             this.dateTimePicker22.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker22.TabIndex = 12;
             // 
-            // button11
+            // submitButtonLAD_8
             // 
-            this.button11.AutoSize = true;
-            this.button11.BackColor = System.Drawing.Color.LightGray;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(361, 83);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 34);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "Submit";
-            this.button11.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_8.AutoSize = true;
+            this.submitButtonLAD_8.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_8.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_8.Name = "submitButtonLAD_8";
+            this.submitButtonLAD_8.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_8.TabIndex = 11;
+            this.submitButtonLAD_8.Text = "Submit";
+            this.submitButtonLAD_8.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_8.Click += new System.EventHandler(this.submitButtonLAD_8_Click);
             // 
             // label57
             // 
@@ -1207,7 +1210,7 @@
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.dateTimePicker9);
             this.panel5.Controls.Add(this.dateTimePicker10);
-            this.panel5.Controls.Add(this.button5);
+            this.panel5.Controls.Add(this.submitButtonLAD_7);
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.textBox18);
             this.panel5.Controls.Add(this.label16);
@@ -1273,22 +1276,23 @@
             this.dateTimePicker10.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker10.TabIndex = 12;
             // 
-            // button5
+            // submitButtonLAD_7
             // 
-            this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.LightGray;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(361, 83);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 34);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Submit";
-            this.button5.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_7.AutoSize = true;
+            this.submitButtonLAD_7.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_7.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_7.Name = "submitButtonLAD_7";
+            this.submitButtonLAD_7.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_7.TabIndex = 11;
+            this.submitButtonLAD_7.Text = "Submit";
+            this.submitButtonLAD_7.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_7.Click += new System.EventHandler(this.submitButtonLAD_7_Click);
             // 
             // label11
             // 
@@ -1385,7 +1389,7 @@
             this.panel8.Controls.Add(this.label25);
             this.panel8.Controls.Add(this.dateTimePicker7);
             this.panel8.Controls.Add(this.dateTimePicker8);
-            this.panel8.Controls.Add(this.button4);
+            this.panel8.Controls.Add(this.submitButtonLSD_1);
             this.panel8.Controls.Add(this.label39);
             this.panel8.Controls.Add(this.textBox30);
             this.panel8.Controls.Add(this.label40);
@@ -1451,22 +1455,23 @@
             this.dateTimePicker8.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker8.TabIndex = 12;
             // 
-            // button4
+            // submitButtonLSD_1
             // 
-            this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.Color.LightGray;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(361, 83);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 34);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Submit";
-            this.button4.UseVisualStyleBackColor = false;
+            this.submitButtonLSD_1.AutoSize = true;
+            this.submitButtonLSD_1.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLSD_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLSD_1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLSD_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLSD_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLSD_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLSD_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLSD_1.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLSD_1.Name = "submitButtonLSD_1";
+            this.submitButtonLSD_1.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLSD_1.TabIndex = 11;
+            this.submitButtonLSD_1.Text = "Submit";
+            this.submitButtonLSD_1.UseVisualStyleBackColor = false;
+            this.submitButtonLSD_1.Click += new System.EventHandler(this.submitButtonLSD_1_Click);
             // 
             // label39
             // 
@@ -1563,8 +1568,8 @@
             this.panel9.Controls.Add(this.label45);
             this.panel9.Controls.Add(this.dateTimePicker19);
             this.panel9.Controls.Add(this.dateTimePicker20);
-            this.panel9.Controls.Add(this.button10);
-            this.panel9.Controls.Add(this.label46);
+            this.panel9.Controls.Add(this.submitButton95_1);
+            this.panel9.Controls.Add(this.LP_95_1_Label);
             this.panel9.Controls.Add(this.textBox34);
             this.panel9.Controls.Add(this.label47);
             this.panel9.Controls.Add(this.textBox35);
@@ -1629,32 +1634,33 @@
             this.dateTimePicker20.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker20.TabIndex = 12;
             // 
-            // button10
+            // submitButton95_1
             // 
-            this.button10.AutoSize = true;
-            this.button10.BackColor = System.Drawing.Color.LightGray;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(361, 83);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(90, 34);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Submit";
-            this.button10.UseVisualStyleBackColor = false;
+            this.submitButton95_1.AutoSize = true;
+            this.submitButton95_1.BackColor = System.Drawing.Color.LightGray;
+            this.submitButton95_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButton95_1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButton95_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButton95_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButton95_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton95_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton95_1.Location = new System.Drawing.Point(361, 83);
+            this.submitButton95_1.Name = "submitButton95_1";
+            this.submitButton95_1.Size = new System.Drawing.Size(90, 34);
+            this.submitButton95_1.TabIndex = 11;
+            this.submitButton95_1.Text = "Submit";
+            this.submitButton95_1.UseVisualStyleBackColor = false;
+            this.submitButton95_1.Click += new System.EventHandler(this.submitButton95_1_Click);
             // 
-            // label46
+            // LP_95_1_Label
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(132, 10);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(154, 23);
-            this.label46.TabIndex = 9;
-            this.label46.Text = "LP 95 Nozzel 1";
+            this.LP_95_1_Label.AutoSize = true;
+            this.LP_95_1_Label.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LP_95_1_Label.Location = new System.Drawing.Point(132, 10);
+            this.LP_95_1_Label.Name = "LP_95_1_Label";
+            this.LP_95_1_Label.Size = new System.Drawing.Size(154, 23);
+            this.LP_95_1_Label.TabIndex = 9;
+            this.LP_95_1_Label.Text = "LP 95 Nozzel 1";
             // 
             // textBox34
             // 
@@ -1741,7 +1747,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.submitButton92_5);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label6);
@@ -1807,22 +1813,23 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker2.TabIndex = 12;
             // 
-            // button1
+            // submitButton92_5
             // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.LightGray;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(361, 83);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 34);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = false;
+            this.submitButton92_5.AutoSize = true;
+            this.submitButton92_5.BackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButton92_5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButton92_5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButton92_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton92_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton92_5.Location = new System.Drawing.Point(361, 83);
+            this.submitButton92_5.Name = "submitButton92_5";
+            this.submitButton92_5.Size = new System.Drawing.Size(90, 34);
+            this.submitButton92_5.TabIndex = 11;
+            this.submitButton92_5.Text = "Submit";
+            this.submitButton92_5.UseVisualStyleBackColor = false;
+            this.submitButton92_5.Click += new System.EventHandler(this.submitButton92_5_Click);
             // 
             // label5
             // 
@@ -1919,7 +1926,7 @@
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.dateTimePicker4);
             this.panel3.Controls.Add(this.dateTimePicker5);
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.submitButton92_6);
             this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.textBox10);
             this.panel3.Controls.Add(this.label15);
@@ -1985,22 +1992,23 @@
             this.dateTimePicker5.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker5.TabIndex = 12;
             // 
-            // button2
+            // submitButton92_6
             // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.LightGray;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(361, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 34);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Submit";
-            this.button2.UseVisualStyleBackColor = false;
+            this.submitButton92_6.AutoSize = true;
+            this.submitButton92_6.BackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButton92_6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButton92_6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButton92_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton92_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton92_6.Location = new System.Drawing.Point(361, 83);
+            this.submitButton92_6.Name = "submitButton92_6";
+            this.submitButton92_6.Size = new System.Drawing.Size(90, 34);
+            this.submitButton92_6.TabIndex = 11;
+            this.submitButton92_6.Text = "Submit";
+            this.submitButton92_6.UseVisualStyleBackColor = false;
+            this.submitButton92_6.Click += new System.EventHandler(this.submitButton92_6_Click);
             // 
             // label14
             // 
@@ -2277,7 +2285,7 @@
             this.panel11.Controls.Add(this.label69);
             this.panel11.Controls.Add(this.dateTimePicker14);
             this.panel11.Controls.Add(this.dateTimePicker23);
-            this.panel11.Controls.Add(this.button7);
+            this.panel11.Controls.Add(this.submitButton92_4);
             this.panel11.Controls.Add(this.label70);
             this.panel11.Controls.Add(this.textBox42);
             this.panel11.Controls.Add(this.label71);
@@ -2343,22 +2351,23 @@
             this.dateTimePicker23.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker23.TabIndex = 12;
             // 
-            // button7
+            // submitButton92_4
             // 
-            this.button7.AutoSize = true;
-            this.button7.BackColor = System.Drawing.Color.LightGray;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(361, 83);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(90, 34);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "Submit";
-            this.button7.UseVisualStyleBackColor = false;
+            this.submitButton92_4.AutoSize = true;
+            this.submitButton92_4.BackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButton92_4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButton92_4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButton92_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton92_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton92_4.Location = new System.Drawing.Point(361, 83);
+            this.submitButton92_4.Name = "submitButton92_4";
+            this.submitButton92_4.Size = new System.Drawing.Size(90, 34);
+            this.submitButton92_4.TabIndex = 11;
+            this.submitButton92_4.Text = "Submit";
+            this.submitButton92_4.UseVisualStyleBackColor = false;
+            this.submitButton92_4.Click += new System.EventHandler(this.submitButton92_4_Click);
             // 
             // label70
             // 
@@ -2455,7 +2464,7 @@
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.dateTimePicker11);
             this.panel2.Controls.Add(this.dateTimePicker12);
-            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.submitButton92_2);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.label10);
@@ -2521,22 +2530,23 @@
             this.dateTimePicker12.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker12.TabIndex = 12;
             // 
-            // button6
+            // submitButton92_2
             // 
-            this.button6.AutoSize = true;
-            this.button6.BackColor = System.Drawing.Color.LightGray;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(361, 83);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(90, 34);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Submit";
-            this.button6.UseVisualStyleBackColor = false;
+            this.submitButton92_2.AutoSize = true;
+            this.submitButton92_2.BackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButton92_2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButton92_2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButton92_2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButton92_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton92_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton92_2.Location = new System.Drawing.Point(361, 83);
+            this.submitButton92_2.Name = "submitButton92_2";
+            this.submitButton92_2.Size = new System.Drawing.Size(90, 34);
+            this.submitButton92_2.TabIndex = 11;
+            this.submitButton92_2.Text = "Submit";
+            this.submitButton92_2.UseVisualStyleBackColor = false;
+            this.submitButton92_2.Click += new System.EventHandler(this.submitButton92_2_Click);
             // 
             // label9
             // 
@@ -2633,7 +2643,7 @@
             this.panel12.Controls.Add(this.label81);
             this.panel12.Controls.Add(this.dateTimePicker24);
             this.panel12.Controls.Add(this.dateTimePicker25);
-            this.panel12.Controls.Add(this.button12);
+            this.panel12.Controls.Add(this.submitButtonLAD_5);
             this.panel12.Controls.Add(this.label82);
             this.panel12.Controls.Add(this.textBox46);
             this.panel12.Controls.Add(this.label83);
@@ -2699,22 +2709,23 @@
             this.dateTimePicker25.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker25.TabIndex = 12;
             // 
-            // button12
+            // submitButtonLAD_5
             // 
-            this.button12.AutoSize = true;
-            this.button12.BackColor = System.Drawing.Color.LightGray;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(361, 83);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(90, 34);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Submit";
-            this.button12.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_5.AutoSize = true;
+            this.submitButtonLAD_5.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_5.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_5.Name = "submitButtonLAD_5";
+            this.submitButtonLAD_5.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_5.TabIndex = 11;
+            this.submitButtonLAD_5.Text = "Submit";
+            this.submitButtonLAD_5.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_5.Click += new System.EventHandler(this.submitButtonLAD_5_Click);
             // 
             // label82
             // 
@@ -2811,7 +2822,7 @@
             this.panel13.Controls.Add(this.label88);
             this.panel13.Controls.Add(this.dateTimePicker26);
             this.panel13.Controls.Add(this.dateTimePicker29);
-            this.panel13.Controls.Add(this.button13);
+            this.panel13.Controls.Add(this.submitButtonLAD_3);
             this.panel13.Controls.Add(this.label89);
             this.panel13.Controls.Add(this.textBox50);
             this.panel13.Controls.Add(this.label90);
@@ -2877,22 +2888,23 @@
             this.dateTimePicker29.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker29.TabIndex = 12;
             // 
-            // button13
+            // submitButtonLAD_3
             // 
-            this.button13.AutoSize = true;
-            this.button13.BackColor = System.Drawing.Color.LightGray;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(361, 83);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(90, 34);
-            this.button13.TabIndex = 11;
-            this.button13.Text = "Submit";
-            this.button13.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_3.AutoSize = true;
+            this.submitButtonLAD_3.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_3.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_3.Name = "submitButtonLAD_3";
+            this.submitButtonLAD_3.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_3.TabIndex = 11;
+            this.submitButtonLAD_3.Text = "Submit";
+            this.submitButtonLAD_3.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_3.Click += new System.EventHandler(this.submitButtonLAD_3_Click);
             // 
             // label89
             // 
@@ -2989,7 +3001,7 @@
             this.panel14.Controls.Add(this.label95);
             this.panel14.Controls.Add(this.dateTimePicker30);
             this.panel14.Controls.Add(this.dateTimePicker31);
-            this.panel14.Controls.Add(this.button15);
+            this.panel14.Controls.Add(this.submitButtonLAD_1);
             this.panel14.Controls.Add(this.label96);
             this.panel14.Controls.Add(this.textBox54);
             this.panel14.Controls.Add(this.label97);
@@ -3055,22 +3067,23 @@
             this.dateTimePicker31.Size = new System.Drawing.Size(197, 24);
             this.dateTimePicker31.TabIndex = 12;
             // 
-            // button15
+            // submitButtonLAD_1
             // 
-            this.button15.AutoSize = true;
-            this.button15.BackColor = System.Drawing.Color.LightGray;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(361, 83);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(90, 34);
-            this.button15.TabIndex = 11;
-            this.button15.Text = "Submit";
-            this.button15.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_1.AutoSize = true;
+            this.submitButtonLAD_1.BackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.submitButtonLAD_1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.submitButtonLAD_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+            this.submitButtonLAD_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.submitButtonLAD_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButtonLAD_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButtonLAD_1.Location = new System.Drawing.Point(361, 83);
+            this.submitButtonLAD_1.Name = "submitButtonLAD_1";
+            this.submitButtonLAD_1.Size = new System.Drawing.Size(90, 34);
+            this.submitButtonLAD_1.TabIndex = 11;
+            this.submitButtonLAD_1.Text = "Submit";
+            this.submitButtonLAD_1.UseVisualStyleBackColor = false;
+            this.submitButtonLAD_1.Click += new System.EventHandler(this.submitButtonLAD_1_Click);
             // 
             // label96
             // 
@@ -3231,14 +3244,14 @@
         private System.Windows.Forms.Label endMeterLabel;
         private System.Windows.Forms.TextBox LP92_1_endLabel;
         private System.Windows.Forms.TextBox LP92_1_startLabel;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox LP92_1_salesLKRText;
         private System.Windows.Forms.Label LP92_1_salesRupeeLabel;
         private System.Windows.Forms.TextBox LP92_1_salesLiterText;
         private System.Windows.Forms.Label LP92_1_salesLiterLabel;
         private System.Windows.Forms.Label LP_92_1_Label;
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.DateTimePicker dateTimePickerLP92_1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker shiftTimePickerLP92_1;
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.Panel panel17;
@@ -3247,7 +3260,7 @@
         private System.Windows.Forms.Label label109;
         private System.Windows.Forms.DateTimePicker dateTimePicker27;
         private System.Windows.Forms.DateTimePicker dateTimePicker28;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button submitButtonLAD_2;
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.TextBox textBox66;
         private System.Windows.Forms.Label label111;
@@ -3263,7 +3276,7 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.DateTimePicker dateTimePicker15;
         private System.Windows.Forms.DateTimePicker dateTimePicker16;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button submitButtonLAD_4;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.Label label29;
@@ -3279,7 +3292,7 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.DateTimePicker dateTimePicker17;
         private System.Windows.Forms.DateTimePicker dateTimePicker18;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button submitButtonLAD_6;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.Label label51;
@@ -3295,7 +3308,7 @@
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.DateTimePicker dateTimePicker21;
         private System.Windows.Forms.DateTimePicker dateTimePicker22;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button submitButtonLAD_8;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.Label label58;
@@ -3311,7 +3324,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker9;
         private System.Windows.Forms.DateTimePicker dateTimePicker10;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button submitButtonLAD_7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Label label16;
@@ -3327,7 +3340,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.DateTimePicker dateTimePicker7;
         private System.Windows.Forms.DateTimePicker dateTimePicker8;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button submitButtonLSD_1;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.Label label40;
@@ -3343,8 +3356,8 @@
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.DateTimePicker dateTimePicker19;
         private System.Windows.Forms.DateTimePicker dateTimePicker20;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Button submitButton95_1;
+        private System.Windows.Forms.Label LP_95_1_Label;
         private System.Windows.Forms.TextBox textBox34;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.TextBox textBox35;
@@ -3359,7 +3372,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button submitButton92_5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
@@ -3375,7 +3388,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.DateTimePicker dateTimePicker5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button submitButton92_6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label15;
@@ -3407,7 +3420,7 @@
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.DateTimePicker dateTimePicker14;
         private System.Windows.Forms.DateTimePicker dateTimePicker23;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button submitButton92_4;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.TextBox textBox42;
         private System.Windows.Forms.Label label71;
@@ -3423,7 +3436,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dateTimePicker11;
         private System.Windows.Forms.DateTimePicker dateTimePicker12;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button submitButton92_2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label10;
@@ -3439,7 +3452,7 @@
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.DateTimePicker dateTimePicker24;
         private System.Windows.Forms.DateTimePicker dateTimePicker25;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button submitButtonLAD_5;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.TextBox textBox46;
         private System.Windows.Forms.Label label83;
@@ -3455,7 +3468,7 @@
         private System.Windows.Forms.Label label88;
         private System.Windows.Forms.DateTimePicker dateTimePicker26;
         private System.Windows.Forms.DateTimePicker dateTimePicker29;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button submitButtonLAD_3;
         private System.Windows.Forms.Label label89;
         private System.Windows.Forms.TextBox textBox50;
         private System.Windows.Forms.Label label90;
@@ -3471,7 +3484,7 @@
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.DateTimePicker dateTimePicker30;
         private System.Windows.Forms.DateTimePicker dateTimePicker31;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button submitButtonLAD_1;
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.TextBox textBox54;
         private System.Windows.Forms.Label label97;

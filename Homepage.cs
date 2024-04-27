@@ -19,6 +19,8 @@ namespace Software_for_Filling_Station
 
         private void Homepage_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet2.salesTest' table. You can move, or remove it, as needed.
+            this.salesTestTableAdapter.Fill(this.database1DataSet2.salesTest);
             WebBrowser webBrowser1 = new WebBrowser
             {
                 Location = new Point(0, 100) // Set the position
@@ -102,6 +104,18 @@ namespace Software_for_Filling_Station
         {
             Sales sales = new Sales();
             sales.Show();
+        }
+
+        private void orders_label_Click(object sender, EventArgs e)
+        {
+            Inventory inventory = new Inventory();
+            inventory.Show();
+        }
+
+        private void testLabel_Click(object sender, EventArgs e)
+        {
+            salesTest test = new salesTest();
+            test.Show();
         }
     }
 }
