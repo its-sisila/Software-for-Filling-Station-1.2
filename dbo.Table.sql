@@ -1,9 +1,8 @@
-﻿CREATE TABLE [Sales]
+﻿CREATE TABLE [Inventory2]
 (
-    [startMeter] FLOAT NOT NULL, 
-    [endMeter] FLOAT NOT NULL, 
-    [date] DATETIME NOT NULL, 
-    [salesLiters] FLOAT NOT NULL, 
-    [salesRupee] FLOAT NOT NULL, 
-    PRIMARY KEY ([date])
+	[date] DATETIME NOT NULL PRIMARY KEY, 
+    [prevDIp] NVARCHAR(50) NOT NULL, 
+    [todayDip] NVARCHAR(50) NOT NULL, 
+    [dipSale] NVARCHAR(50) NOT NULL, 
+    [tankNo] NVARCHAR(50) NOT NULL
 )

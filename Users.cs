@@ -21,7 +21,7 @@ namespace Software_for_Filling_Station
         private void displayButton_Click(object sender, EventArgs e)
         {
           
-                string query = "SELECT firstName, lastName, username, password, id FROM Users"; // Query to select username and email
+                string query = "SELECT firstName, lastName, username, password, id FROM Users";
                 using (SqlConnection sql = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = 'C:\NSBM - Academic\Year 01 Semester 03\C#\C# Final Project\Final Software\Software-for-Filling-Station\Database1.mdf'; Integrated Security = True"))
                 {
                     SqlCommand command = new SqlCommand(query, sql);

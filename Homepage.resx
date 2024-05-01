@@ -122,10 +122,43 @@
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="testLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="testInventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="testInventoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="testInventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 700</value>
+  </data>
+  <data name="testInventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>60, 16, 0, 0</value>
+  </data>
+  <data name="testInventoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 56</value>
+  </data>
+  <data name="testInventoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="testInventoryLabel.Text" xml:space="preserve">
+    <value>Inventory V1.2</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Name" xml:space="preserve">
+    <value>testInventoryLabel</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="testLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
   <data name="testLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -142,7 +175,7 @@
     <value>11</value>
   </data>
   <data name="testLabel.Text" xml:space="preserve">
-    <value>Test</value>
+    <value>Sales Test</value>
   </data>
   <data name="&gt;&gt;testLabel.Name" xml:space="preserve">
     <value>testLabel</value>
@@ -154,7 +187,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;testLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="orders_label.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -190,7 +223,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;orders_label.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="usersLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -223,7 +256,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;usersLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="logOutLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -256,7 +289,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;logOutLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="settingsLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -289,7 +322,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;settingsLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="accountsLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -322,7 +355,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;accountsLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="salesLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -355,7 +388,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;salesLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -388,7 +421,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="inventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -424,7 +457,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;inventoryLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="attendanceLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -454,7 +487,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;attendanceLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-4, -4</value>
@@ -481,7 +514,7 @@
     <value>10</value>
   </data>
   <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1201, 57</value>
+    <value>1264, 57</value>
   </data>
   <data name="webBrowser1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -490,7 +523,7 @@
     <value>18, 16</value>
   </data>
   <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>711, 904</value>
+    <value>648, 904</value>
   </data>
   <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -538,7 +571,7 @@
     <value>8</value>
   </data>
   <data name="attendanceGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>718, 57</value>
+    <value>276, 77</value>
   </data>
   <data name="attendanceGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -547,7 +580,7 @@
     <value>62</value>
   </data>
   <data name="attendanceGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 355</value>
+    <value>948, 183</value>
   </data>
   <data name="attendanceGrid.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -574,7 +607,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>860, 22</value>
+    <value>614, 39</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 25</value>
@@ -597,33 +630,6 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="stockGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 500</value>
-  </data>
-  <data name="stockGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="stockGrid.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>62</value>
-  </data>
-  <data name="stockGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>869, 221</value>
-  </data>
-  <data name="stockGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;stockGrid.Name" xml:space="preserve">
-    <value>stockGrid</value>
-  </data>
-  <data name="&gt;&gt;stockGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stockGrid.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;stockGrid.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -634,7 +640,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 473</value>
+    <value>604, 489</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -667,7 +673,7 @@
     <value>NoControl</value>
   </data>
   <data name="ordersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>369, 22</value>
+    <value>593, 277</value>
   </data>
   <data name="ordersLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 25</value>
@@ -690,33 +696,6 @@
   <data name="&gt;&gt;ordersLabel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>267, 57</value>
-  </data>
-  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>62</value>
-  </data>
-  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 355</value>
-  </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -727,7 +706,7 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 762</value>
+    <value>604, 727</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -748,7 +727,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="dateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
     <value>date</value>
@@ -813,17 +792,20 @@
   <data name="nozzelDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <metadata name="salesTestBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>207, 17</value>
+  <metadata name="salesTestBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 140</value>
+  </metadata>
+  <metadata name="database1DataSet9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 140</value>
   </metadata>
   <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 838</value>
+    <value>266, 755</value>
   </data>
   <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>934, 150</value>
+    <value>958, 177</value>
   </data>
   <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -838,13 +820,205 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
+  <metadata name="salesTestBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 17</value>
+  </metadata>
   <metadata name="database1DataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="salesTestTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>421, 17</value>
+  </metadata>
+  <metadata name="database1DataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>628, 17</value>
+  </metadata>
+  <metadata name="ordersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>818, 17</value>
+  </metadata>
+  <metadata name="ordersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1016, 17</value>
+  </metadata>
+  <metadata name="database1DataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 58</value>
+  </metadata>
+  <metadata name="ordersBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 58</value>
+  </metadata>
+  <metadata name="ordersTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>413, 58</value>
+  </metadata>
+  <metadata name="database1DataSet5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>612, 58</value>
+  </metadata>
+  <metadata name="ordersBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>802, 58</value>
+  </metadata>
+  <metadata name="ordersTableAdapter2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1008, 58</value>
+  </metadata>
+  <data name="dateDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="dateDataGridViewTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dateDataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="fuelTypeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>fuelType</value>
+  </data>
+  <data name="fuelTypeDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="fuelTypeDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="litersDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Liters</value>
+  </data>
+  <data name="litersDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="litersDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>tankNo</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="ordersBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 99</value>
+  </metadata>
+  <metadata name="database1DataSet6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 99</value>
+  </metadata>
+  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 309</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 159</value>
+  </data>
+  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ordersTableAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>413, 99</value>
+  </metadata>
+  <data name="dateDataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>date</value>
+  </data>
+  <data name="dateDataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dateDataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>tankNo</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tankNoDataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="previousDayDipDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>previousDayDip</value>
+  </data>
+  <data name="previousDayDipDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="previousDayDipDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="todayDipDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>todayDip</value>
+  </data>
+  <data name="todayDipDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="todayDipDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dipSaleDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>dipSale</value>
+  </data>
+  <data name="dipSaleDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dipSaleDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="ordersDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>orders</value>
+  </data>
+  <data name="ordersDataGridViewTextBoxColumn.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ordersDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="inventoryBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>802, 99</value>
+  </metadata>
+  <metadata name="database1DataSet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>612, 99</value>
+  </metadata>
+  <data name="stockGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 526</value>
+  </data>
+  <data name="stockGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="stockGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="stockGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 176</value>
+  </data>
+  <data name="stockGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;stockGrid.Name" xml:space="preserve">
+    <value>stockGrid</value>
+  </data>
+  <data name="&gt;&gt;stockGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stockGrid.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;stockGrid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="inventoryTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1019, 99</value>
+  </metadata>
+  <metadata name="salesTestTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>429, 140</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -863,24 +1037,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Homepage</value>
-  </data>
-  <data name="&gt;&gt;database1DataSet2.Name" xml:space="preserve">
-    <value>database1DataSet2</value>
-  </data>
-  <data name="&gt;&gt;database1DataSet2.Type" xml:space="preserve">
-    <value>Software_for_Filling_Station.Database1DataSet2, Database1DataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;salesTestBindingSource.Name" xml:space="preserve">
-    <value>salesTestBindingSource</value>
-  </data>
-  <data name="&gt;&gt;salesTestBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;salesTestTableAdapter.Name" xml:space="preserve">
-    <value>salesTestTableAdapter</value>
-  </data>
-  <data name="&gt;&gt;salesTestTableAdapter.Type" xml:space="preserve">
-    <value>Software_for_Filling_Station.Database1DataSet2TableAdapters.salesTestTableAdapter, Database1DataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dateDataGridViewTextBoxColumn.Name" xml:space="preserve">
     <value>dateDataGridViewTextBoxColumn</value>
@@ -923,6 +1079,192 @@
   </data>
   <data name="&gt;&gt;nozzelDataGridViewTextBoxColumn.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;salesTestBindingSource1.Name" xml:space="preserve">
+    <value>salesTestBindingSource1</value>
+  </data>
+  <data name="&gt;&gt;salesTestBindingSource1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet9.Name" xml:space="preserve">
+    <value>database1DataSet9</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet9.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet9, Database1DataSet9.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;salesTestBindingSource.Name" xml:space="preserve">
+    <value>salesTestBindingSource</value>
+  </data>
+  <data name="&gt;&gt;salesTestBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet2.Name" xml:space="preserve">
+    <value>database1DataSet2</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet2.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet2, Database1DataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;salesTestTableAdapter.Name" xml:space="preserve">
+    <value>salesTestTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;salesTestTableAdapter.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet2TableAdapters.salesTestTableAdapter, Database1DataSet2.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet3.Name" xml:space="preserve">
+    <value>database1DataSet3</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet3.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet3, Database1DataSet3.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource.Name" xml:space="preserve">
+    <value>ordersBindingSource</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter.Name" xml:space="preserve">
+    <value>ordersTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet3TableAdapters.OrdersTableAdapter, Database1DataSet3.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet4.Name" xml:space="preserve">
+    <value>database1DataSet4</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet4.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet4, Database1DataSet4.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource1.Name" xml:space="preserve">
+    <value>ordersBindingSource1</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter1.Name" xml:space="preserve">
+    <value>ordersTableAdapter1</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter1.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet4TableAdapters.OrdersTableAdapter, Database1DataSet4.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet5.Name" xml:space="preserve">
+    <value>database1DataSet5</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet5.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet5, Database1DataSet5.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource2.Name" xml:space="preserve">
+    <value>ordersBindingSource2</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter2.Name" xml:space="preserve">
+    <value>ordersTableAdapter2</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter2.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet5TableAdapters.OrdersTableAdapter, Database1DataSet5.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dateDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dateDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dateDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fuelTypeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>fuelTypeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;fuelTypeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;litersDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>litersDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;litersDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tankNoDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>tankNoDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;tankNoDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource3.Name" xml:space="preserve">
+    <value>ordersBindingSource3</value>
+  </data>
+  <data name="&gt;&gt;ordersBindingSource3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet6.Name" xml:space="preserve">
+    <value>database1DataSet6</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet6.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet6, Database1DataSet6.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter3.Name" xml:space="preserve">
+    <value>ordersTableAdapter3</value>
+  </data>
+  <data name="&gt;&gt;ordersTableAdapter3.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet6TableAdapters.OrdersTableAdapter, Database1DataSet6.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dateDataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dateDataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;dateDataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tankNoDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>tankNoDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;tankNoDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previousDayDipDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>previousDayDipDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;previousDayDipDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;todayDipDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>todayDipDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;todayDipDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dipSaleDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>dipSaleDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;dipSaleDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ordersDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>ordersDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;ordersDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inventoryBindingSource.Name" xml:space="preserve">
+    <value>inventoryBindingSource</value>
+  </data>
+  <data name="&gt;&gt;inventoryBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet8.Name" xml:space="preserve">
+    <value>database1DataSet8</value>
+  </data>
+  <data name="&gt;&gt;database1DataSet8.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet8, Database1DataSet8.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;inventoryTableAdapter.Name" xml:space="preserve">
+    <value>inventoryTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;inventoryTableAdapter.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet8TableAdapters.InventoryTableAdapter, Database1DataSet8.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;salesTestTableAdapter1.Name" xml:space="preserve">
+    <value>salesTestTableAdapter1</value>
+  </data>
+  <data name="&gt;&gt;salesTestTableAdapter1.Type" xml:space="preserve">
+    <value>Software_for_Filling_Station.Database1DataSet9TableAdapters.salesTestTableAdapter, Database1DataSet9.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Homepage</value>

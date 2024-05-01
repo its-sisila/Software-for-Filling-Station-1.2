@@ -19,6 +19,18 @@ namespace Software_for_Filling_Station
 
         private void Homepage_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet9.salesTest' table. You can move, or remove it, as needed.
+            this.salesTestTableAdapter1.Fill(this.database1DataSet9.salesTest);
+            // TODO: This line of code loads data into the 'database1DataSet8.Inventory' table. You can move, or remove it, as needed.
+            this.inventoryTableAdapter.Fill(this.database1DataSet8.Inventory);
+            // TODO: This line of code loads data into the 'database1DataSet6.Orders' table. You can move, or remove it, as needed.
+            this.ordersTableAdapter3.Fill(this.database1DataSet6.Orders);
+            // TODO: This line of code loads data into the 'database1DataSet5.Orders' table. You can move, or remove it, as needed.
+            //this.ordersTableAdapter2.Fill(this.database1DataSet5.Orders);
+            // TODO: This line of code loads data into the 'database1DataSet4.Orders' table. You can move, or remove it, as needed.
+            //this.ordersTableAdapter1.Fill(this.database1DataSet4.Orders);
+            // TODO: This line of code loads data into the 'database1DataSet3.Orders' table. You can move, or remove it, as needed.
+            //this.ordersTableAdapter.Fill(this.database1DataSet3.Orders);
             // TODO: This line of code loads data into the 'database1DataSet2.salesTest' table. You can move, or remove it, as needed.
             this.salesTestTableAdapter.Fill(this.database1DataSet2.salesTest);
             WebBrowser webBrowser1 = new WebBrowser
@@ -108,14 +120,36 @@ namespace Software_for_Filling_Station
 
         private void orders_label_Click(object sender, EventArgs e)
         {
-            Inventory inventory = new Inventory();
-            inventory.Show();
+            Orders orders = new Orders();
+            orders.Show();
         }
 
         private void testLabel_Click(object sender, EventArgs e)
         {
             salesTest test = new salesTest();
             test.Show();
+        }
+
+        private void dataGridView1_CellContentClick_2(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void testInventoryLabel_Click(object sender, EventArgs e)
+        {
+            InventoryV1 inventoryV1 = new InventoryV1();
+            inventoryV1.Show();
+        }
+
+        private void ordersLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void settingsLabel_Click(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.Show();
         }
     }
 }

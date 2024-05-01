@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.panel11 = new System.Windows.Forms.Panel();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.shiftBox = new System.Windows.Forms.ComboBox();
             this.literPriceText = new System.Windows.Forms.TextBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.literPriceLabel = new System.Windows.Forms.Label();
             this.insertButton = new System.Windows.Forms.Button();
-            this.shiftBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.nozzelText = new System.Windows.Forms.ComboBox();
             this.label68 = new System.Windows.Forms.Label();
@@ -55,11 +56,12 @@
             // 
             this.panel11.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.dateTimePicker2);
+            this.panel11.Controls.Add(this.shiftBox);
             this.panel11.Controls.Add(this.literPriceText);
             this.panel11.Controls.Add(this.checkBox11);
             this.panel11.Controls.Add(this.literPriceLabel);
             this.panel11.Controls.Add(this.insertButton);
-            this.panel11.Controls.Add(this.shiftBox);
             this.panel11.Controls.Add(this.label1);
             this.panel11.Controls.Add(this.nozzelText);
             this.panel11.Controls.Add(this.label68);
@@ -80,6 +82,27 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(415, 503);
             this.panel11.TabIndex = 37;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(136, 236);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(195, 22);
+            this.dateTimePicker2.TabIndex = 23;
+            // 
+            // shiftBox
+            // 
+            this.shiftBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shiftBox.FormattingEnabled = true;
+            this.shiftBox.Items.AddRange(new object[] {
+            "7:00 AM (Day)",
+            "7:00 PM (Night)"});
+            this.shiftBox.Location = new System.Drawing.Point(136, 202);
+            this.shiftBox.Name = "shiftBox";
+            this.shiftBox.Size = new System.Drawing.Size(195, 28);
+            this.shiftBox.TabIndex = 19;
+            this.shiftBox.SelectedIndexChanged += new System.EventHandler(this.shiftBox_SelectedIndexChanged);
             // 
             // literPriceText
             // 
@@ -113,26 +136,13 @@
             // 
             // insertButton
             // 
-            this.insertButton.Location = new System.Drawing.Point(183, 255);
+            this.insertButton.Location = new System.Drawing.Point(183, 264);
             this.insertButton.Name = "insertButton";
             this.insertButton.Size = new System.Drawing.Size(75, 23);
             this.insertButton.TabIndex = 20;
             this.insertButton.Text = "Insert";
             this.insertButton.UseVisualStyleBackColor = true;
             this.insertButton.Click += new System.EventHandler(this.insertButton_Click);
-            // 
-            // shiftBox
-            // 
-            this.shiftBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shiftBox.FormattingEnabled = true;
-            this.shiftBox.Items.AddRange(new object[] {
-            "7:00 AM (Day)",
-            "7:00 PM (Night)"});
-            this.shiftBox.Location = new System.Drawing.Point(136, 198);
-            this.shiftBox.Name = "shiftBox";
-            this.shiftBox.Size = new System.Drawing.Size(188, 28);
-            this.shiftBox.TabIndex = 19;
-            this.shiftBox.SelectedIndexChanged += new System.EventHandler(this.shiftBox_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -197,7 +207,7 @@
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(136, 49);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(197, 24);
+            this.dateTimePicker1.Size = new System.Drawing.Size(198, 24);
             this.dateTimePicker1.TabIndex = 12;
             this.dateTimePicker1.Value = new System.DateTime(2024, 4, 24, 0, 0, 0, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
@@ -300,6 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkRed;
             this.ClientSize = new System.Drawing.Size(752, 608);
             this.Controls.Add(this.panel11);
             this.Name = "salesTest";
@@ -332,5 +343,6 @@
         private System.Windows.Forms.Button insertButton;
         private System.Windows.Forms.TextBox literPriceText;
         private System.Windows.Forms.Label literPriceLabel;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
