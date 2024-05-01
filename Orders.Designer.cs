@@ -42,17 +42,17 @@
             this.fuelTypeDrop = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.database1DataSet11 = new Software_for_Filling_Station.Database1DataSet11();
-            this.ordersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ordersTableAdapter = new Software_for_Filling_Station.Database1DataSet11TableAdapters.OrdersTableAdapter();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fuelTypeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.litersDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tankNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ordersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet11 = new Software_for_Filling_Station.Database1DataSet11();
+            this.ordersTableAdapter = new Software_for_Filling_Station.Database1DataSet11TableAdapters.OrdersTableAdapter();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet11)).BeginInit();
             this.SuspendLayout();
             // 
             // panel9
@@ -212,22 +212,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(664, 999);
+            this.dataGridView1.Size = new System.Drawing.Size(664, 975);
             this.dataGridView1.TabIndex = 11;
-            // 
-            // database1DataSet11
-            // 
-            this.database1DataSet11.DataSetName = "Database1DataSet11";
-            this.database1DataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ordersBindingSource
-            // 
-            this.ordersBindingSource.DataMember = "Orders";
-            this.ordersBindingSource.DataSource = this.database1DataSet11;
-            // 
-            // ordersTableAdapter
-            // 
-            this.ordersTableAdapter.ClearBeforeFill = true;
             // 
             // dateDataGridViewTextBoxColumn
             // 
@@ -261,6 +247,20 @@
             this.tankNoDataGridViewTextBoxColumn.Name = "tankNoDataGridViewTextBoxColumn";
             this.tankNoDataGridViewTextBoxColumn.Width = 125;
             // 
+            // ordersBindingSource
+            // 
+            this.ordersBindingSource.DataMember = "Orders";
+            this.ordersBindingSource.DataSource = this.database1DataSet11;
+            // 
+            // database1DataSet11
+            // 
+            this.database1DataSet11.DataSetName = "Database1DataSet11";
+            this.database1DataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // ordersTableAdapter
+            // 
+            this.ordersTableAdapter.ClearBeforeFill = true;
+            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -276,8 +276,8 @@
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet11)).EndInit();
             this.ResumeLayout(false);
 
         }
