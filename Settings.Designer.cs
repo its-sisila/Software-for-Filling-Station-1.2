@@ -55,7 +55,7 @@
             this.newPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newPasswordLabel.ForeColor = System.Drawing.Color.White;
             this.newPasswordLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.newPasswordLabel.Location = new System.Drawing.Point(3, 34);
+            this.newPasswordLabel.Location = new System.Drawing.Point(0, 28);
             this.newPasswordLabel.Name = "newPasswordLabel";
             this.newPasswordLabel.Padding = new System.Windows.Forms.Padding(3, 3, 0, 0);
             this.newPasswordLabel.Size = new System.Drawing.Size(252, 56);
