@@ -19,6 +19,10 @@ namespace Software_for_Filling_Station
 
         private void Homepage_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database1DataSet17.Attendance' table. You can move, or remove it, as needed.
+            this.attendanceTableAdapter.Fill(this.database1DataSet17.Attendance);
+            // TODO: This line of code loads data into the 'database1DataSet13.Inventory2' table. You can move, or remove it, as needed.
+            this.inventory2TableAdapter.Fill(this.database1DataSet13.Inventory2);
             // TODO: This line of code loads data into the 'database1DataSet9.salesTest' table. You can move, or remove it, as needed.
             this.salesTestTableAdapter1.Fill(this.database1DataSet9.salesTest);
             // TODO: This line of code loads data into the 'database1DataSet8.Inventory' table. You can move, or remove it, as needed.
@@ -59,7 +63,8 @@ namespace Software_for_Filling_Station
 
         private void label4_Click(object sender, EventArgs e)
         {
-
+            Salary salary = new Salary();
+            salary.Show();
         }
 
         private void inventoryLabel_Click(object sender, EventArgs e)
@@ -150,6 +155,12 @@ namespace Software_for_Filling_Station
         {
             Settings settings = new Settings();
             settings.Show();
+        }
+
+        private void attendanceLabel_Click(object sender, EventArgs e)
+        {
+            Attendance2 Employee_Attendance = new Attendance2();
+            Employee_Attendance.Show();
         }
     }
 }

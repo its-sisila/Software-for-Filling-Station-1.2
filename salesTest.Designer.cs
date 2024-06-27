@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel11 = new System.Windows.Forms.Panel();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.shiftBox = new System.Windows.Forms.ComboBox();
@@ -49,7 +50,22 @@
             this.endMeterText = new System.Windows.Forms.TextBox();
             this.startMeterText = new System.Windows.Forms.TextBox();
             this.label76 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.database1DataSet14 = new Software_for_Filling_Station.Database1DataSet14();
+            this.salesTestBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.salesTestTableAdapter = new Software_for_Filling_Station.Database1DataSet14TableAdapters.salesTestTableAdapter();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shiftDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.startMeterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.endMeterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salesLitersDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salesLKRDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nozzelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shiftDropDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel11
@@ -77,7 +93,7 @@
             this.panel11.Controls.Add(this.startMeterText);
             this.panel11.Controls.Add(this.label76);
             this.panel11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel11.Location = new System.Drawing.Point(160, 48);
+            this.panel11.Location = new System.Drawing.Point(27, 28);
             this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(415, 503);
@@ -306,17 +322,121 @@
             this.label76.TabIndex = 1;
             this.label76.Text = "Meter at Start";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dateDataGridViewTextBoxColumn,
+            this.shiftDataGridViewTextBoxColumn,
+            this.startMeterDataGridViewTextBoxColumn,
+            this.endMeterDataGridViewTextBoxColumn,
+            this.salesLitersDataGridViewTextBoxColumn,
+            this.salesLKRDataGridViewTextBoxColumn,
+            this.nozzelDataGridViewTextBoxColumn,
+            this.shiftDropDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.salesTestBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(469, 28);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(838, 503);
+            this.dataGridView1.TabIndex = 38;
+            // 
+            // database1DataSet14
+            // 
+            this.database1DataSet14.DataSetName = "Database1DataSet14";
+            this.database1DataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // salesTestBindingSource
+            // 
+            this.salesTestBindingSource.DataMember = "salesTest";
+            this.salesTestBindingSource.DataSource = this.database1DataSet14;
+            // 
+            // salesTestTableAdapter
+            // 
+            this.salesTestTableAdapter.ClearBeforeFill = true;
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "date";
+            this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.dateDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // shiftDataGridViewTextBoxColumn
+            // 
+            this.shiftDataGridViewTextBoxColumn.DataPropertyName = "shift";
+            this.shiftDataGridViewTextBoxColumn.HeaderText = "shift";
+            this.shiftDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.shiftDataGridViewTextBoxColumn.Name = "shiftDataGridViewTextBoxColumn";
+            this.shiftDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // startMeterDataGridViewTextBoxColumn
+            // 
+            this.startMeterDataGridViewTextBoxColumn.DataPropertyName = "startMeter";
+            this.startMeterDataGridViewTextBoxColumn.HeaderText = "startMeter";
+            this.startMeterDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.startMeterDataGridViewTextBoxColumn.Name = "startMeterDataGridViewTextBoxColumn";
+            this.startMeterDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // endMeterDataGridViewTextBoxColumn
+            // 
+            this.endMeterDataGridViewTextBoxColumn.DataPropertyName = "endMeter";
+            this.endMeterDataGridViewTextBoxColumn.HeaderText = "endMeter";
+            this.endMeterDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.endMeterDataGridViewTextBoxColumn.Name = "endMeterDataGridViewTextBoxColumn";
+            this.endMeterDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // salesLitersDataGridViewTextBoxColumn
+            // 
+            this.salesLitersDataGridViewTextBoxColumn.DataPropertyName = "salesLiters";
+            this.salesLitersDataGridViewTextBoxColumn.HeaderText = "salesLiters";
+            this.salesLitersDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.salesLitersDataGridViewTextBoxColumn.Name = "salesLitersDataGridViewTextBoxColumn";
+            this.salesLitersDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // salesLKRDataGridViewTextBoxColumn
+            // 
+            this.salesLKRDataGridViewTextBoxColumn.DataPropertyName = "salesLKR";
+            this.salesLKRDataGridViewTextBoxColumn.HeaderText = "salesLKR";
+            this.salesLKRDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.salesLKRDataGridViewTextBoxColumn.Name = "salesLKRDataGridViewTextBoxColumn";
+            this.salesLKRDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // nozzelDataGridViewTextBoxColumn
+            // 
+            this.nozzelDataGridViewTextBoxColumn.DataPropertyName = "nozzel";
+            this.nozzelDataGridViewTextBoxColumn.HeaderText = "nozzel";
+            this.nozzelDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nozzelDataGridViewTextBoxColumn.Name = "nozzelDataGridViewTextBoxColumn";
+            this.nozzelDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // shiftDropDataGridViewTextBoxColumn
+            // 
+            this.shiftDropDataGridViewTextBoxColumn.DataPropertyName = "shiftDrop";
+            this.shiftDropDataGridViewTextBoxColumn.HeaderText = "shiftDrop";
+            this.shiftDropDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.shiftDropDataGridViewTextBoxColumn.Name = "shiftDropDataGridViewTextBoxColumn";
+            this.shiftDropDataGridViewTextBoxColumn.Width = 125;
+            // 
             // salesTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(752, 608);
+            this.ClientSize = new System.Drawing.Size(1319, 608);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel11);
             this.Name = "salesTest";
             this.Text = "salesTest";
+            this.Load += new System.EventHandler(this.salesTest_Load);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -344,5 +464,17 @@
         private System.Windows.Forms.TextBox literPriceText;
         private System.Windows.Forms.Label literPriceLabel;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private Database1DataSet14 database1DataSet14;
+        private System.Windows.Forms.BindingSource salesTestBindingSource;
+        private Database1DataSet14TableAdapters.salesTestTableAdapter salesTestTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shiftDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn startMeterDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn endMeterDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn salesLitersDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn salesLKRDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nozzelDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shiftDropDataGridViewTextBoxColumn;
     }
 }

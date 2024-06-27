@@ -32,13 +32,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.selectTankButton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.meterSale = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tankNoDrop = new System.Windows.Forms.ComboBox();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dipSaleText = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.submitButton = new System.Windows.Forms.Button();
             this.todayDipText = new System.Windows.Forms.TextBox();
@@ -47,22 +47,23 @@
             this.prevDipText = new System.Windows.Forms.TextBox();
             this.LP95_tank1_Label = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tankNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.todayDipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dipSaleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inventory2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet10 = new Software_for_Filling_Station.Database1DataSet10();
             this.inventoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database1DataSet7 = new Software_for_Filling_Station.Database1DataSet7();
             this.inventoryTableAdapter = new Software_for_Filling_Station.Database1DataSet7TableAdapters.InventoryTableAdapter();
-            this.database1DataSet10 = new Software_for_Filling_Station.Database1DataSet10();
-            this.inventory2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.inventory2TableAdapter = new Software_for_Filling_Station.Database1DataSet10TableAdapters.Inventory2TableAdapter();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prevDIp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tankNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.todayDipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dipSaleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,13 +71,11 @@
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.selectTankButton);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.tankNoDrop);
             this.panel1.Controls.Add(this.dateTimePicker);
             this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.dipSaleText);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.submitButton);
             this.panel1.Controls.Add(this.todayDipText);
@@ -115,19 +114,19 @@
             this.label6.TabIndex = 21;
             this.label6.Text = "Date";
             // 
-            // textBox2
+            // meterSale
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(218, 379);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(192, 27);
-            this.textBox2.TabIndex = 20;
+            this.meterSale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.meterSale.Location = new System.Drawing.Point(709, 603);
+            this.meterSale.Name = "meterSale";
+            this.meterSale.Size = new System.Drawing.Size(192, 27);
+            this.meterSale.TabIndex = 20;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(26, 369);
+            this.label5.Location = new System.Drawing.Point(527, 573);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(156, 57);
             this.label5.TabIndex = 19;
@@ -148,9 +147,9 @@
             this.tankNoDrop.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tankNoDrop.FormattingEnabled = true;
             this.tankNoDrop.Items.AddRange(new object[] {
-            "Tank LP 95-01",
-            "Tank LSD-01",
-            "Tank LAD-01",
+            "LP 95 Tank 01",
+            "LSD Tank 01",
+            "LAD Tank 01",
             "Tank LAD-02 ",
             "Tank LAD-03",
             "Tank LAD-04",
@@ -182,19 +181,19 @@
             this.checkBox1.Text = "I\'m accountable for above Data I Entered";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // dipSaleText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(218, 317);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 27);
-            this.textBox1.TabIndex = 7;
+            this.dipSaleText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dipSaleText.Location = new System.Drawing.Point(218, 286);
+            this.dipSaleText.Name = "dipSaleText";
+            this.dipSaleText.Size = new System.Drawing.Size(192, 27);
+            this.dipSaleText.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 325);
+            this.label3.Location = new System.Drawing.Point(21, 294);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(161, 19);
             this.label3.TabIndex = 6;
@@ -207,12 +206,13 @@
             this.submitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitButton.Location = new System.Drawing.Point(264, 278);
+            this.submitButton.Location = new System.Drawing.Point(263, 337);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(98, 33);
             this.submitButton.TabIndex = 5;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // todayDipText
             // 
@@ -267,6 +267,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dateDataGridViewTextBoxColumn,
+            this.prevDIp,
             this.tankNoDataGridViewTextBoxColumn,
             this.todayDipDataGridViewTextBoxColumn,
             this.dipSaleDataGridViewTextBoxColumn});
@@ -275,8 +276,36 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(809, 634);
+            this.dataGridView1.Size = new System.Drawing.Size(888, 634);
             this.dataGridView1.TabIndex = 2;
+            // 
+            // inventory2BindingSource
+            // 
+            this.inventory2BindingSource.DataMember = "Inventory2";
+            this.inventory2BindingSource.DataSource = this.database1DataSet10;
+            // 
+            // database1DataSet10
+            // 
+            this.database1DataSet10.DataSetName = "Database1DataSet10";
+            this.database1DataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // inventoryBindingSource
+            // 
+            this.inventoryBindingSource.DataMember = "Inventory";
+            this.inventoryBindingSource.DataSource = this.database1DataSet7;
+            // 
+            // database1DataSet7
+            // 
+            this.database1DataSet7.DataSetName = "Database1DataSet7";
+            this.database1DataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // inventoryTableAdapter
+            // 
+            this.inventoryTableAdapter.ClearBeforeFill = true;
+            // 
+            // inventory2TableAdapter
+            // 
+            this.inventory2TableAdapter.ClearBeforeFill = true;
             // 
             // dateDataGridViewTextBoxColumn
             // 
@@ -285,6 +314,14 @@
             this.dateDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
             this.dateDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // prevDIp
+            // 
+            this.prevDIp.DataPropertyName = "prevDIp";
+            this.prevDIp.HeaderText = "prevDIp";
+            this.prevDIp.MinimumWidth = 6;
+            this.prevDIp.Name = "prevDIp";
+            this.prevDIp.Width = 125;
             // 
             // tankNoDataGridViewTextBoxColumn
             // 
@@ -310,53 +347,28 @@
             this.dipSaleDataGridViewTextBoxColumn.Name = "dipSaleDataGridViewTextBoxColumn";
             this.dipSaleDataGridViewTextBoxColumn.Width = 125;
             // 
-            // inventoryBindingSource
-            // 
-            this.inventoryBindingSource.DataMember = "Inventory";
-            this.inventoryBindingSource.DataSource = this.database1DataSet7;
-            // 
-            // database1DataSet7
-            // 
-            this.database1DataSet7.DataSetName = "Database1DataSet7";
-            this.database1DataSet7.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // inventoryTableAdapter
-            // 
-            this.inventoryTableAdapter.ClearBeforeFill = true;
-            // 
-            // database1DataSet10
-            // 
-            this.database1DataSet10.DataSetName = "Database1DataSet10";
-            this.database1DataSet10.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // inventory2BindingSource
-            // 
-            this.inventory2BindingSource.DataMember = "Inventory2";
-            this.inventory2BindingSource.DataSource = this.database1DataSet10;
-            // 
-            // inventory2TableAdapter
-            // 
-            this.inventory2TableAdapter.ClearBeforeFill = true;
-            // 
             // InventoryV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1451, 658);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(1451, 723);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.meterSale);
+            this.Controls.Add(this.label5);
             this.Name = "InventoryV1";
             this.Text = "InventoryV1";
             this.Load += new System.EventHandler(this.InventoryV1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -365,7 +377,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox dipSaleText;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.TextBox todayDipText;
@@ -375,7 +387,7 @@
         private System.Windows.Forms.Label LP95_tank1_Label;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox tankNoDrop;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox meterSale;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button selectTankButton;
@@ -383,12 +395,13 @@
         private Database1DataSet7 database1DataSet7;
         private System.Windows.Forms.BindingSource inventoryBindingSource;
         private Database1DataSet7TableAdapters.InventoryTableAdapter inventoryTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tankNoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn todayDipDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dipSaleDataGridViewTextBoxColumn;
         private Database1DataSet10 database1DataSet10;
         private System.Windows.Forms.BindingSource inventory2BindingSource;
         private Database1DataSet10TableAdapters.Inventory2TableAdapter inventory2TableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prevDIp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tankNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn todayDipDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dipSaleDataGridViewTextBoxColumn;
     }
 }

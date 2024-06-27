@@ -145,5 +145,12 @@ namespace Software_for_Filling_Station
         {
             string shift = Convert.ToString(shiftBox.SelectedItem);
         }
+
+        private void salesTest_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'database1DataSet14.salesTest' table. You can move, or remove it, as needed.
+            this.salesTestTableAdapter.Fill(this.database1DataSet14.salesTest);
+
+        }
     }
 }

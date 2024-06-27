@@ -1349,7 +1349,7 @@
             this.dipSaleDataGridViewTextBoxColumn,
             this.tankNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.inventory2BindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(41, 743);
+            this.dataGridView1.Location = new System.Drawing.Point(337, 719);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;

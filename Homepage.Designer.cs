@@ -45,6 +45,14 @@
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label1 = new System.Windows.Forms.Label();
             this.attendanceGrid = new System.Windows.Forms.DataGridView();
+            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.timeInDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.timeOutDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supervisorNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.attendanceBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet17 = new Software_for_Filling_Station.Database1DataSet17();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.ordersLabel = new System.Windows.Forms.Label();
@@ -82,16 +90,20 @@
             this.stockGrid = new System.Windows.Forms.DataGridView();
             this.dateDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tankNoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.previousDayDipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.todayDipDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dipSaleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ordersDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inventory2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet13 = new Software_for_Filling_Station.Database1DataSet13();
             this.inventoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database1DataSet8 = new Software_for_Filling_Station.Database1DataSet8();
             this.inventoryTableAdapter = new Software_for_Filling_Station.Database1DataSet8TableAdapters.InventoryTableAdapter();
             this.salesTestTableAdapter1 = new Software_for_Filling_Station.Database1DataSet9TableAdapters.salesTestTableAdapter();
+            this.inventory2TableAdapter = new Software_for_Filling_Station.Database1DataSet13TableAdapters.Inventory2TableAdapter();
+            this.attendanceTableAdapter = new Software_for_Filling_Station.Database1DataSet17TableAdapters.AttendanceTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attendanceGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attendanceBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet9)).BeginInit();
@@ -107,6 +119,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet8)).BeginInit();
             this.SuspendLayout();
@@ -215,6 +229,7 @@
             resources.ApplyResources(this.attendanceLabel, "attendanceLabel");
             this.attendanceLabel.ForeColor = System.Drawing.Color.White;
             this.attendanceLabel.Name = "attendanceLabel";
+            this.attendanceLabel.Click += new System.EventHandler(this.attendanceLabel_Click);
             // 
             // webBrowser1
             // 
@@ -232,11 +247,66 @@
             // 
             // attendanceGrid
             // 
+            this.attendanceGrid.AutoGenerateColumns = false;
             this.attendanceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.attendanceGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.employeeIDDataGridViewTextBoxColumn,
+            this.dateDataGridViewTextBoxColumn3,
+            this.statusDataGridViewTextBoxColumn,
+            this.timeInDataGridViewTextBoxColumn,
+            this.timeOutDataGridViewTextBoxColumn,
+            this.supervisorNameDataGridViewTextBoxColumn});
+            this.attendanceGrid.DataSource = this.attendanceBindingSource;
             resources.ApplyResources(this.attendanceGrid, "attendanceGrid");
             this.attendanceGrid.Name = "attendanceGrid";
             this.attendanceGrid.RowTemplate.Height = 28;
             this.attendanceGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.attendanceGrid_CellContentClick);
+            // 
+            // employeeIDDataGridViewTextBoxColumn
+            // 
+            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
+            resources.ApplyResources(this.employeeIDDataGridViewTextBoxColumn, "employeeIDDataGridViewTextBoxColumn");
+            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
+            // 
+            // dateDataGridViewTextBoxColumn3
+            // 
+            this.dateDataGridViewTextBoxColumn3.DataPropertyName = "Date";
+            resources.ApplyResources(this.dateDataGridViewTextBoxColumn3, "dateDataGridViewTextBoxColumn3");
+            this.dateDataGridViewTextBoxColumn3.Name = "dateDataGridViewTextBoxColumn3";
+            // 
+            // statusDataGridViewTextBoxColumn
+            // 
+            this.statusDataGridViewTextBoxColumn.DataPropertyName = "Status";
+            resources.ApplyResources(this.statusDataGridViewTextBoxColumn, "statusDataGridViewTextBoxColumn");
+            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            // 
+            // timeInDataGridViewTextBoxColumn
+            // 
+            this.timeInDataGridViewTextBoxColumn.DataPropertyName = "Time_In";
+            resources.ApplyResources(this.timeInDataGridViewTextBoxColumn, "timeInDataGridViewTextBoxColumn");
+            this.timeInDataGridViewTextBoxColumn.Name = "timeInDataGridViewTextBoxColumn";
+            // 
+            // timeOutDataGridViewTextBoxColumn
+            // 
+            this.timeOutDataGridViewTextBoxColumn.DataPropertyName = "Time_Out";
+            resources.ApplyResources(this.timeOutDataGridViewTextBoxColumn, "timeOutDataGridViewTextBoxColumn");
+            this.timeOutDataGridViewTextBoxColumn.Name = "timeOutDataGridViewTextBoxColumn";
+            // 
+            // supervisorNameDataGridViewTextBoxColumn
+            // 
+            this.supervisorNameDataGridViewTextBoxColumn.DataPropertyName = "Supervisor_Name";
+            resources.ApplyResources(this.supervisorNameDataGridViewTextBoxColumn, "supervisorNameDataGridViewTextBoxColumn");
+            this.supervisorNameDataGridViewTextBoxColumn.Name = "supervisorNameDataGridViewTextBoxColumn";
+            // 
+            // attendanceBindingSource
+            // 
+            this.attendanceBindingSource.DataMember = "Attendance";
+            this.attendanceBindingSource.DataSource = this.database1DataSet17;
+            // 
+            // database1DataSet17
+            // 
+            this.database1DataSet17.DataSetName = "Database1DataSet17";
+            this.database1DataSet17.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label2
             // 
@@ -443,11 +513,9 @@
             this.stockGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dateDataGridViewTextBoxColumn2,
             this.tankNoDataGridViewTextBoxColumn1,
-            this.previousDayDipDataGridViewTextBoxColumn,
             this.todayDipDataGridViewTextBoxColumn,
-            this.dipSaleDataGridViewTextBoxColumn,
-            this.ordersDataGridViewTextBoxColumn});
-            this.stockGrid.DataSource = this.inventoryBindingSource;
+            this.dipSaleDataGridViewTextBoxColumn});
+            this.stockGrid.DataSource = this.inventory2BindingSource;
             resources.ApplyResources(this.stockGrid, "stockGrid");
             this.stockGrid.Name = "stockGrid";
             this.stockGrid.RowTemplate.Height = 28;
@@ -465,12 +533,6 @@
             resources.ApplyResources(this.tankNoDataGridViewTextBoxColumn1, "tankNoDataGridViewTextBoxColumn1");
             this.tankNoDataGridViewTextBoxColumn1.Name = "tankNoDataGridViewTextBoxColumn1";
             // 
-            // previousDayDipDataGridViewTextBoxColumn
-            // 
-            this.previousDayDipDataGridViewTextBoxColumn.DataPropertyName = "previousDayDip";
-            resources.ApplyResources(this.previousDayDipDataGridViewTextBoxColumn, "previousDayDipDataGridViewTextBoxColumn");
-            this.previousDayDipDataGridViewTextBoxColumn.Name = "previousDayDipDataGridViewTextBoxColumn";
-            // 
             // todayDipDataGridViewTextBoxColumn
             // 
             this.todayDipDataGridViewTextBoxColumn.DataPropertyName = "todayDip";
@@ -483,11 +545,15 @@
             resources.ApplyResources(this.dipSaleDataGridViewTextBoxColumn, "dipSaleDataGridViewTextBoxColumn");
             this.dipSaleDataGridViewTextBoxColumn.Name = "dipSaleDataGridViewTextBoxColumn";
             // 
-            // ordersDataGridViewTextBoxColumn
+            // inventory2BindingSource
             // 
-            this.ordersDataGridViewTextBoxColumn.DataPropertyName = "orders";
-            resources.ApplyResources(this.ordersDataGridViewTextBoxColumn, "ordersDataGridViewTextBoxColumn");
-            this.ordersDataGridViewTextBoxColumn.Name = "ordersDataGridViewTextBoxColumn";
+            this.inventory2BindingSource.DataMember = "Inventory2";
+            this.inventory2BindingSource.DataSource = this.database1DataSet13;
+            // 
+            // database1DataSet13
+            // 
+            this.database1DataSet13.DataSetName = "Database1DataSet13";
+            this.database1DataSet13.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // inventoryBindingSource
             // 
@@ -506,6 +572,14 @@
             // salesTestTableAdapter1
             // 
             this.salesTestTableAdapter1.ClearBeforeFill = true;
+            // 
+            // inventory2TableAdapter
+            // 
+            this.inventory2TableAdapter.ClearBeforeFill = true;
+            // 
+            // attendanceTableAdapter
+            // 
+            this.attendanceTableAdapter.ClearBeforeFill = true;
             // 
             // Homepage
             // 
@@ -529,6 +603,8 @@
             this.Load += new System.EventHandler(this.Homepage_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.attendanceGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attendanceBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet9)).EndInit();
@@ -544,6 +620,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ordersBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet8)).EndInit();
             this.ResumeLayout(false);
@@ -604,13 +682,23 @@
         private Database1DataSet8TableAdapters.InventoryTableAdapter inventoryTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn tankNoDataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn previousDayDipDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn todayDipDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dipSaleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ordersDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label testInventoryLabel;
         private Database1DataSet9 database1DataSet9;
         private System.Windows.Forms.BindingSource salesTestBindingSource1;
         private Database1DataSet9TableAdapters.salesTestTableAdapter salesTestTableAdapter1;
+        private Database1DataSet13 database1DataSet13;
+        private System.Windows.Forms.BindingSource inventory2BindingSource;
+        private Database1DataSet13TableAdapters.Inventory2TableAdapter inventory2TableAdapter;
+        private Database1DataSet17 database1DataSet17;
+        private System.Windows.Forms.BindingSource attendanceBindingSource;
+        private Database1DataSet17TableAdapters.AttendanceTableAdapter attendanceTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn employeeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn timeInDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn timeOutDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supervisorNameDataGridViewTextBoxColumn;
     }
 }

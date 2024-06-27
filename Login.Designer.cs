@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.usernameText = new System.Windows.Forms.TextBox();
             this.passwordText = new System.Windows.Forms.TextBox();
             this.usernameLabel = new System.Windows.Forms.Label();
@@ -35,6 +36,10 @@
             this.submitButton = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
             this.registerLink = new System.Windows.Forms.LinkLabel();
+            this.forPassLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // usernameText
@@ -42,7 +47,7 @@
             this.usernameText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.usernameText.BackColor = System.Drawing.SystemColors.Window;
             this.usernameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameText.Location = new System.Drawing.Point(596, 229);
+            this.usernameText.Location = new System.Drawing.Point(596, 396);
             this.usernameText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.usernameText.Name = "usernameText";
             this.usernameText.Size = new System.Drawing.Size(314, 30);
@@ -54,7 +59,7 @@
             this.passwordText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.passwordText.BackColor = System.Drawing.SystemColors.Window;
             this.passwordText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordText.Location = new System.Drawing.Point(596, 288);
+            this.passwordText.Location = new System.Drawing.Point(596, 454);
             this.passwordText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.passwordText.Name = "passwordText";
             this.passwordText.PasswordChar = '*';
@@ -66,7 +71,7 @@
             this.usernameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Gautami", 12F);
-            this.usernameLabel.Location = new System.Drawing.Point(378, 229);
+            this.usernameLabel.Location = new System.Drawing.Point(399, 399);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(105, 36);
             this.usernameLabel.TabIndex = 2;
@@ -78,24 +83,25 @@
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.BackColor = System.Drawing.Color.Transparent;
             this.passwordLabel.Font = new System.Drawing.Font("Gautami", 12F);
-            this.passwordLabel.Location = new System.Drawing.Point(382, 290);
+            this.passwordLabel.Location = new System.Drawing.Point(399, 457);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(101, 36);
             this.passwordLabel.TabIndex = 3;
             this.passwordLabel.Text = "Password";
+            this.passwordLabel.Click += new System.EventHandler(this.passwordLabel_Click);
             // 
             // submitButton
             // 
             this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.submitButton.BackColor = System.Drawing.Color.White;
             this.submitButton.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitButton.Location = new System.Drawing.Point(596, 362);
+            this.submitButton.Location = new System.Drawing.Point(596, 517);
             this.submitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(134, 53);
+            this.submitButton.Size = new System.Drawing.Size(138, 39);
             this.submitButton.TabIndex = 4;
             this.submitButton.Text = "Login";
-            this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.UseVisualStyleBackColor = true;
             this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // resetButton
@@ -103,10 +109,10 @@
             this.resetButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.resetButton.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resetButton.Location = new System.Drawing.Point(782, 362);
+            this.resetButton.Location = new System.Drawing.Point(782, 517);
             this.resetButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(128, 53);
+            this.resetButton.Size = new System.Drawing.Size(128, 39);
             this.resetButton.TabIndex = 5;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
@@ -118,7 +124,7 @@
             this.registerLink.AutoSize = true;
             this.registerLink.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerLink.LinkColor = System.Drawing.Color.Brown;
-            this.registerLink.Location = new System.Drawing.Point(642, 447);
+            this.registerLink.Location = new System.Drawing.Point(541, 584);
             this.registerLink.Name = "registerLink";
             this.registerLink.Size = new System.Drawing.Size(193, 24);
             this.registerLink.TabIndex = 7;
@@ -127,12 +133,49 @@
             this.registerLink.VisitedLinkColor = System.Drawing.Color.Red;
             this.registerLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerLink_LinkClicked);
             // 
+            // forPassLinkLabel
+            // 
+            this.forPassLinkLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.forPassLinkLabel.AutoSize = true;
+            this.forPassLinkLabel.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forPassLinkLabel.LinkColor = System.Drawing.Color.Navy;
+            this.forPassLinkLabel.Location = new System.Drawing.Point(767, 584);
+            this.forPassLinkLabel.Name = "forPassLinkLabel";
+            this.forPassLinkLabel.Size = new System.Drawing.Size(184, 24);
+            this.forPassLinkLabel.TabIndex = 8;
+            this.forPassLinkLabel.TabStop = true;
+            this.forPassLinkLabel.Text = "Change Password?";
+            this.forPassLinkLabel.VisitedLinkColor = System.Drawing.Color.Red;
+            this.forPassLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.forPassLinkLabel_LinkClicked);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(486, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(424, 286);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(428, 327);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(509, 26);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Management System Software For Filling Station";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1924, 977);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.forPassLinkLabel);
             this.Controls.Add(this.registerLink);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.submitButton);
@@ -144,6 +187,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +202,9 @@
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.Button resetButton;
         private System.Windows.Forms.LinkLabel registerLink;
+        private System.Windows.Forms.LinkLabel forPassLinkLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

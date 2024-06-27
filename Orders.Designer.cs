@@ -208,11 +208,11 @@
             this.litersDataGridViewTextBoxColumn,
             this.tankNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.ordersBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(616, 44);
+            this.dataGridView1.Location = new System.Drawing.Point(603, 44);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(664, 975);
+            this.dataGridView1.Size = new System.Drawing.Size(709, 433);
             this.dataGridView1.TabIndex = 11;
             // 
             // dateDataGridViewTextBoxColumn

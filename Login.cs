@@ -91,5 +91,16 @@ namespace Software_for_Filling_Station
             register.Show();
             this.Hide();
         }
+
+        private void forPassLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.Show();
+        }
+
+        private void passwordLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
