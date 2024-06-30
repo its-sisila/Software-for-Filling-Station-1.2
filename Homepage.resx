@@ -122,48 +122,18 @@
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="testInventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="testLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="testInventoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="testInventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 503</value>
-  </data>
-  <data name="testInventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>60, 16, 0, 0</value>
-  </data>
-  <data name="testInventoryLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 56</value>
-  </data>
-  <data name="testInventoryLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="testInventoryLabel.Text" xml:space="preserve">
-    <value>Inventory V1.2</value>
-  </data>
-  <data name="&gt;&gt;testInventoryLabel.Name" xml:space="preserve">
-    <value>testInventoryLabel</value>
-  </data>
-  <data name="&gt;&gt;testInventoryLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;testInventoryLabel.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;testInventoryLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="testLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
   <data name="testLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="testLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 440</value>
+    <value>4, 191</value>
+  </data>
+  <data name="testLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="testLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -175,7 +145,7 @@
     <value>11</value>
   </data>
   <data name="testLabel.Text" xml:space="preserve">
-    <value>Sales V 1.2</value>
+    <value>Sales</value>
   </data>
   <data name="&gt;&gt;testLabel.Name" xml:space="preserve">
     <value>testLabel</value>
@@ -187,19 +157,22 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;testLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="orders_label.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="orders_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="orders_label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 313</value>
+    <value>4, 124</value>
+  </data>
+  <data name="orders_label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="orders_label.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 45, 0</value>
+    <value>0, 0, 44, 0</value>
   </data>
   <data name="orders_label.Size" type="System.Drawing.Size, System.Drawing">
     <value>242, 56</value>
@@ -223,16 +196,19 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;orders_label.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="usersLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="usersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="usersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 61</value>
+    <value>4, 516</value>
+  </data>
+  <data name="usersLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="usersLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>62, 16, 0, 0</value>
@@ -256,16 +232,19 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;usersLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="logOutLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="logOutLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="logOutLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 631</value>
+    <value>4, 580</value>
+  </data>
+  <data name="logOutLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="logOutLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -289,16 +268,19 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;logOutLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="settingsLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="settingsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="settingsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 567</value>
+    <value>4, 452</value>
+  </data>
+  <data name="settingsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="settingsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -322,16 +304,19 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;settingsLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="accountsLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="accountsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="accountsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 440</value>
+    <value>4, 255</value>
+  </data>
+  <data name="accountsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="accountsLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -355,7 +340,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;accountsLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="salesLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -364,7 +349,10 @@
     <value>NoControl</value>
   </data>
   <data name="salesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 376</value>
+    <value>4, 700</value>
+  </data>
+  <data name="salesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="salesLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -388,16 +376,19 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;salesLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 187</value>
+    <value>4, 386</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -421,7 +412,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="inventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -430,7 +421,10 @@
     <value>NoControl</value>
   </data>
   <data name="inventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 250</value>
+    <value>4, 756</value>
+  </data>
+  <data name="inventoryLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="inventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 26, 0</value>
@@ -457,13 +451,16 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;inventoryLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="attendanceLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="attendanceLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 124</value>
+    <value>4, 321</value>
+  </data>
+  <data name="attendanceLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="attendanceLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>60, 16, 0, 0</value>
@@ -487,16 +484,52 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;attendanceLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="testInventoryLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Reference Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="testInventoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="testInventoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 60</value>
+  </data>
+  <data name="testInventoryLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="testInventoryLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>60, 16, 0, 0</value>
+  </data>
+  <data name="testInventoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 56</value>
+  </data>
+  <data name="testInventoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="testInventoryLabel.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Name" xml:space="preserve">
+    <value>testInventoryLabel</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;testInventoryLabel.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>-4, -4</value>
   </data>
   <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 1067</value>
+    <value>256, 1068</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -514,16 +547,16 @@
     <value>10</value>
   </data>
   <data name="webBrowser1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1264, 57</value>
+    <value>1251, 76</value>
   </data>
   <data name="webBrowser1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="webBrowser1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>18, 16</value>
   </data>
   <data name="webBrowser1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>648, 904</value>
+    <value>660, 866</value>
   </data>
   <data name="webBrowser1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -547,7 +580,10 @@
     <value>Microsoft Sans Serif, 14pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1440, 18</value>
+    <value>1440, 20</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 29</value>
@@ -631,16 +667,16 @@
     <value>1285, 140</value>
   </metadata>
   <data name="attendanceGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 77</value>
+    <value>276, 76</value>
   </data>
   <data name="attendanceGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="attendanceGrid.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="attendanceGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>948, 183</value>
+    <value>932, 184</value>
   </data>
   <data name="attendanceGrid.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -657,6 +693,9 @@
   <data name="&gt;&gt;attendanceGrid.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <metadata name="database1DataSet17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1285, 140</value>
+  </metadata>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -667,7 +706,10 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>614, 39</value>
+    <value>614, 40</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 25</value>
@@ -700,7 +742,10 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 489</value>
+    <value>604, 488</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -733,7 +778,10 @@
     <value>NoControl</value>
   </data>
   <data name="ordersLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 277</value>
+    <value>593, 276</value>
+  </data>
+  <data name="ordersLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="ordersLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 25</value>
@@ -766,7 +814,10 @@
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 727</value>
+    <value>604, 728</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 25</value>
@@ -859,13 +910,16 @@
     <value>17, 140</value>
   </metadata>
   <data name="dataGridView2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 755</value>
+    <value>276, 756</value>
+  </data>
+  <data name="dataGridView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="dataGridView2.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>958, 177</value>
+    <value>932, 177</value>
   </data>
   <data name="dataGridView2.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -882,8 +936,14 @@
   <data name="&gt;&gt;dataGridView2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="database1DataSet9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 140</value>
+  </metadata>
   <metadata name="salesTestBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>207, 17</value>
+  </metadata>
+  <metadata name="database1DataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
   <metadata name="database1DataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -961,13 +1021,16 @@
     <value>17, 99</value>
   </metadata>
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 309</value>
+    <value>276, 308</value>
+  </data>
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>948, 159</value>
+    <value>932, 159</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -984,6 +1047,9 @@
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="database1DataSet6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 99</value>
+  </metadata>
   <metadata name="ordersTableAdapter3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>413, 99</value>
   </metadata>
@@ -1030,16 +1096,16 @@
     <value>644, 140</value>
   </metadata>
   <data name="stockGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 526</value>
+    <value>276, 524</value>
   </data>
   <data name="stockGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="stockGrid.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
   <data name="stockGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>948, 176</value>
+    <value>932, 176</value>
   </data>
   <data name="stockGrid.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1056,8 +1122,14 @@
   <data name="&gt;&gt;stockGrid.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <metadata name="database1DataSet13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>644, 140</value>
+  </metadata>
   <metadata name="inventoryBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>802, 99</value>
+  </metadata>
+  <metadata name="database1DataSet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>612, 99</value>
   </metadata>
   <metadata name="database1DataSet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>612, 99</value>
@@ -1084,10 +1156,13 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1924, 1055</value>
+    <value>1924, 945</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Homepage</value>

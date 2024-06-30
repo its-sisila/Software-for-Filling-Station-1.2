@@ -128,5 +128,17 @@ namespace Software_for_Filling_Station
         {
 
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -129,7 +129,6 @@
             // 
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.DarkRed;
-            this.panel1.Controls.Add(this.testInventoryLabel);
             this.panel1.Controls.Add(this.testLabel);
             this.panel1.Controls.Add(this.orders_label);
             this.panel1.Controls.Add(this.usersLabel);
@@ -140,6 +139,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.inventoryLabel);
             this.panel1.Controls.Add(this.attendanceLabel);
+            this.panel1.Controls.Add(this.testInventoryLabel);
             this.panel1.Name = "panel1";
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -201,9 +201,9 @@
             // 
             // salesLabel
             // 
-            this.salesLabel.BackColor = System.Drawing.Color.Brown;
+            this.salesLabel.BackColor = System.Drawing.Color.DarkRed;
             resources.ApplyResources(this.salesLabel, "salesLabel");
-            this.salesLabel.ForeColor = System.Drawing.Color.White;
+            this.salesLabel.ForeColor = System.Drawing.Color.DarkRed;
             this.salesLabel.Name = "salesLabel";
             this.salesLabel.Click += new System.EventHandler(this.salesLabel_Click);
             // 
@@ -217,9 +217,9 @@
             // 
             // inventoryLabel
             // 
-            this.inventoryLabel.BackColor = System.Drawing.Color.Brown;
+            this.inventoryLabel.BackColor = System.Drawing.Color.DarkRed;
             resources.ApplyResources(this.inventoryLabel, "inventoryLabel");
-            this.inventoryLabel.ForeColor = System.Drawing.Color.White;
+            this.inventoryLabel.ForeColor = System.Drawing.Color.DarkRed;
             this.inventoryLabel.Name = "inventoryLabel";
             this.inventoryLabel.Click += new System.EventHandler(this.inventoryLabel_Click);
             // 

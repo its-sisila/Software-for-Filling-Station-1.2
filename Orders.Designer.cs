@@ -69,16 +69,17 @@
             this.panel9.Controls.Add(this.receivedButton);
             this.panel9.Controls.Add(this.fuelTypeDrop);
             this.panel9.Controls.Add(this.label34);
-            this.panel9.Location = new System.Drawing.Point(33, 44);
+            this.panel9.Location = new System.Drawing.Point(37, 52);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(505, 417);
+            this.panel9.Size = new System.Drawing.Size(568, 495);
             this.panel9.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(52, 256);
+            this.label3.Location = new System.Drawing.Point(58, 304);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 22);
             this.label3.TabIndex = 16;
@@ -97,16 +98,17 @@
             "Tank LAD-04",
             "Tank LP 92-01",
             "Tank LP 92-02"});
-            this.tankNoDrop.Location = new System.Drawing.Point(185, 248);
+            this.tankNoDrop.Location = new System.Drawing.Point(208, 294);
+            this.tankNoDrop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tankNoDrop.Name = "tankNoDrop";
-            this.tankNoDrop.Size = new System.Drawing.Size(246, 30);
+            this.tankNoDrop.Size = new System.Drawing.Size(276, 30);
             this.tankNoDrop.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(52, 113);
+            this.label1.Location = new System.Drawing.Point(58, 134);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 22);
             this.label1.TabIndex = 12;
@@ -116,9 +118,10 @@
             // 
             this.datePicker.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.datePicker.Location = new System.Drawing.Point(185, 103);
+            this.datePicker.Location = new System.Drawing.Point(208, 122);
+            this.datePicker.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.datePicker.Name = "datePicker";
-            this.datePicker.Size = new System.Drawing.Size(246, 28);
+            this.datePicker.Size = new System.Drawing.Size(276, 28);
             this.datePicker.TabIndex = 11;
             this.datePicker.Value = new System.DateTime(2024, 4, 27, 20, 29, 6, 0);
             this.datePicker.ValueChanged += new System.EventHandler(this.datePicker_ValueChanged);
@@ -127,7 +130,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(181, 15);
+            this.label35.Location = new System.Drawing.Point(204, 18);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(86, 26);
             this.label35.TabIndex = 10;
@@ -137,7 +140,8 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(123, 377);
+            this.checkBox1.Location = new System.Drawing.Point(138, 448);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(296, 22);
             this.checkBox1.TabIndex = 9;
@@ -148,16 +152,17 @@
             // 
             this.litersText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.litersText.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.litersText.Location = new System.Drawing.Point(185, 196);
+            this.litersText.Location = new System.Drawing.Point(208, 233);
+            this.litersText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.litersText.Name = "litersText";
-            this.litersText.Size = new System.Drawing.Size(246, 29);
+            this.litersText.Size = new System.Drawing.Size(276, 29);
             this.litersText.TabIndex = 4;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(52, 203);
+            this.label33.Location = new System.Drawing.Point(58, 241);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(57, 22);
             this.label33.TabIndex = 3;
@@ -166,9 +171,10 @@
             // receivedButton
             // 
             this.receivedButton.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receivedButton.Location = new System.Drawing.Point(207, 323);
+            this.receivedButton.Location = new System.Drawing.Point(233, 384);
+            this.receivedButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.receivedButton.Name = "receivedButton";
-            this.receivedButton.Size = new System.Drawing.Size(114, 36);
+            this.receivedButton.Size = new System.Drawing.Size(128, 43);
             this.receivedButton.TabIndex = 2;
             this.receivedButton.Text = "Received";
             this.receivedButton.UseVisualStyleBackColor = true;
@@ -183,16 +189,17 @@
             "LAD",
             "LP 95",
             "LSD"});
-            this.fuelTypeDrop.Location = new System.Drawing.Point(185, 152);
+            this.fuelTypeDrop.Location = new System.Drawing.Point(208, 180);
+            this.fuelTypeDrop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fuelTypeDrop.Name = "fuelTypeDrop";
-            this.fuelTypeDrop.Size = new System.Drawing.Size(246, 30);
+            this.fuelTypeDrop.Size = new System.Drawing.Size(276, 30);
             this.fuelTypeDrop.TabIndex = 1;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("MS Reference Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(52, 160);
+            this.label34.Location = new System.Drawing.Point(58, 190);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(93, 22);
             this.label34.TabIndex = 0;
@@ -208,11 +215,12 @@
             this.litersDataGridViewTextBoxColumn,
             this.tankNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.ordersBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(603, 44);
+            this.dataGridView1.Location = new System.Drawing.Point(678, 52);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(709, 433);
+            this.dataGridView1.Size = new System.Drawing.Size(798, 514);
             this.dataGridView1.TabIndex = 11;
             // 
             // dateDataGridViewTextBoxColumn
@@ -263,12 +271,14 @@
             // 
             // Orders
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel9);
+            this.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Orders";
             this.ShowIcon = false;
             this.Text = "Orders";

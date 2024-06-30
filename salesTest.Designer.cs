@@ -51,9 +51,6 @@
             this.startMeterText = new System.Windows.Forms.TextBox();
             this.label76 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.database1DataSet14 = new Software_for_Filling_Station.Database1DataSet14();
-            this.salesTestBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.salesTestTableAdapter = new Software_for_Filling_Station.Database1DataSet14TableAdapters.salesTestTableAdapter();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.shiftDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.startMeterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,10 +59,13 @@
             this.salesLKRDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nozzelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.shiftDropDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salesTestBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet14 = new Software_for_Filling_Station.Database1DataSet14();
+            this.salesTestTableAdapter = new Software_for_Filling_Station.Database1DataSet14TableAdapters.salesTestTableAdapter();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).BeginInit();
             this.SuspendLayout();
             // 
             // panel11
@@ -93,18 +93,19 @@
             this.panel11.Controls.Add(this.startMeterText);
             this.panel11.Controls.Add(this.label76);
             this.panel11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel11.Location = new System.Drawing.Point(27, 28);
+            this.panel11.Location = new System.Drawing.Point(30, 33);
             this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(415, 503);
+            this.panel11.Size = new System.Drawing.Size(467, 597);
             this.panel11.TabIndex = 37;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(136, 236);
+            this.dateTimePicker2.Location = new System.Drawing.Point(153, 280);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(195, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(219, 26);
             this.dateTimePicker2.TabIndex = 23;
             // 
             // shiftBox
@@ -114,26 +115,28 @@
             this.shiftBox.Items.AddRange(new object[] {
             "7:00 AM (Day)",
             "7:00 PM (Night)"});
-            this.shiftBox.Location = new System.Drawing.Point(136, 202);
+            this.shiftBox.Location = new System.Drawing.Point(153, 240);
+            this.shiftBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.shiftBox.Name = "shiftBox";
-            this.shiftBox.Size = new System.Drawing.Size(195, 28);
+            this.shiftBox.Size = new System.Drawing.Size(219, 28);
             this.shiftBox.TabIndex = 19;
             this.shiftBox.SelectedIndexChanged += new System.EventHandler(this.shiftBox_SelectedIndexChanged);
             // 
             // literPriceText
             // 
             this.literPriceText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.literPriceText.Location = new System.Drawing.Point(136, 153);
+            this.literPriceText.Location = new System.Drawing.Point(153, 182);
             this.literPriceText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.literPriceText.Name = "literPriceText";
-            this.literPriceText.Size = new System.Drawing.Size(198, 27);
+            this.literPriceText.Size = new System.Drawing.Size(222, 27);
             this.literPriceText.TabIndex = 22;
             // 
             // checkBox11
             // 
             this.checkBox11.AutoSize = true;
             this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(73, 460);
+            this.checkBox11.Location = new System.Drawing.Point(82, 546);
+            this.checkBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox11.Name = "checkBox11";
             this.checkBox11.Size = new System.Drawing.Size(291, 22);
             this.checkBox11.TabIndex = 16;
@@ -144,7 +147,7 @@
             // 
             this.literPriceLabel.AutoSize = true;
             this.literPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.literPriceLabel.Location = new System.Drawing.Point(9, 160);
+            this.literPriceLabel.Location = new System.Drawing.Point(10, 190);
             this.literPriceLabel.Name = "literPriceLabel";
             this.literPriceLabel.Size = new System.Drawing.Size(87, 20);
             this.literPriceLabel.TabIndex = 21;
@@ -152,9 +155,10 @@
             // 
             // insertButton
             // 
-            this.insertButton.Location = new System.Drawing.Point(183, 264);
+            this.insertButton.Location = new System.Drawing.Point(206, 314);
+            this.insertButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.insertButton.Name = "insertButton";
-            this.insertButton.Size = new System.Drawing.Size(75, 23);
+            this.insertButton.Size = new System.Drawing.Size(84, 27);
             this.insertButton.TabIndex = 20;
             this.insertButton.Text = "Insert";
             this.insertButton.UseVisualStyleBackColor = true;
@@ -164,7 +168,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 18);
+            this.label1.Location = new System.Drawing.Point(10, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 20);
             this.label1.TabIndex = 18;
@@ -191,9 +195,10 @@
             "LAD - 8",
             "LP 95 - 1",
             "LSD - 1"});
-            this.nozzelText.Location = new System.Drawing.Point(127, 10);
+            this.nozzelText.Location = new System.Drawing.Point(143, 12);
+            this.nozzelText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nozzelText.Name = "nozzelText";
-            this.nozzelText.Size = new System.Drawing.Size(207, 28);
+            this.nozzelText.Size = new System.Drawing.Size(232, 28);
             this.nozzelText.TabIndex = 17;
             this.nozzelText.SelectedIndexChanged += new System.EventHandler(this.nozzelText_SelectedIndexChanged);
             // 
@@ -201,7 +206,7 @@
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(10, 202);
+            this.label68.Location = new System.Drawing.Point(11, 240);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(115, 18);
             this.label68.TabIndex = 15;
@@ -211,7 +216,7 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(9, 53);
+            this.label69.Location = new System.Drawing.Point(10, 63);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(45, 20);
             this.label69.TabIndex = 14;
@@ -221,9 +226,10 @@
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(136, 49);
+            this.dateTimePicker1.Location = new System.Drawing.Point(153, 58);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(198, 24);
+            this.dateTimePicker1.Size = new System.Drawing.Size(222, 24);
             this.dateTimePicker1.TabIndex = 12;
             this.dateTimePicker1.Value = new System.DateTime(2024, 4, 24, 0, 0, 0, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
@@ -238,9 +244,10 @@
             this.submitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submitButton.Location = new System.Drawing.Point(168, 383);
+            this.submitButton.Location = new System.Drawing.Point(189, 455);
+            this.submitButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(90, 34);
+            this.submitButton.Size = new System.Drawing.Size(101, 40);
             this.submitButton.TabIndex = 11;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
@@ -249,17 +256,17 @@
             // salesLKRtxt
             // 
             this.salesLKRtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salesLKRtxt.Location = new System.Drawing.Point(133, 340);
+            this.salesLKRtxt.Location = new System.Drawing.Point(150, 404);
             this.salesLKRtxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.salesLKRtxt.Name = "salesLKRtxt";
-            this.salesLKRtxt.Size = new System.Drawing.Size(198, 27);
+            this.salesLKRtxt.Size = new System.Drawing.Size(222, 27);
             this.salesLKRtxt.TabIndex = 8;
             // 
             // label71
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(25, 358);
+            this.label71.Location = new System.Drawing.Point(28, 425);
             this.label71.Name = "label71";
             this.label71.Size = new System.Drawing.Size(89, 20);
             this.label71.TabIndex = 7;
@@ -268,17 +275,17 @@
             // salesLiterstxt
             // 
             this.salesLiterstxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salesLiterstxt.Location = new System.Drawing.Point(136, 303);
+            this.salesLiterstxt.Location = new System.Drawing.Point(153, 360);
             this.salesLiterstxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.salesLiterstxt.Name = "salesLiterstxt";
-            this.salesLiterstxt.Size = new System.Drawing.Size(198, 27);
+            this.salesLiterstxt.Size = new System.Drawing.Size(222, 27);
             this.salesLiterstxt.TabIndex = 6;
             // 
             // label72
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(21, 310);
+            this.label72.Location = new System.Drawing.Point(24, 368);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(93, 20);
             this.label72.TabIndex = 5;
@@ -288,7 +295,7 @@
             // 
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(9, 119);
+            this.label75.Location = new System.Drawing.Point(10, 141);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(105, 20);
             this.label75.TabIndex = 4;
@@ -297,26 +304,26 @@
             // endMeterText
             // 
             this.endMeterText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endMeterText.Location = new System.Drawing.Point(136, 112);
+            this.endMeterText.Location = new System.Drawing.Point(153, 133);
             this.endMeterText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.endMeterText.Name = "endMeterText";
-            this.endMeterText.Size = new System.Drawing.Size(197, 27);
+            this.endMeterText.Size = new System.Drawing.Size(221, 27);
             this.endMeterText.TabIndex = 3;
             // 
             // startMeterText
             // 
             this.startMeterText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startMeterText.Location = new System.Drawing.Point(136, 80);
+            this.startMeterText.Location = new System.Drawing.Point(153, 95);
             this.startMeterText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.startMeterText.Name = "startMeterText";
-            this.startMeterText.Size = new System.Drawing.Size(197, 27);
+            this.startMeterText.Size = new System.Drawing.Size(221, 27);
             this.startMeterText.TabIndex = 2;
             // 
             // label76
             // 
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(9, 83);
+            this.label76.Location = new System.Drawing.Point(10, 99);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(112, 20);
             this.label76.TabIndex = 1;
@@ -336,26 +343,13 @@
             this.nozzelDataGridViewTextBoxColumn,
             this.shiftDropDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.salesTestBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(469, 28);
+            this.dataGridView1.Location = new System.Drawing.Point(528, 33);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(838, 503);
+            this.dataGridView1.Size = new System.Drawing.Size(943, 597);
             this.dataGridView1.TabIndex = 38;
-            // 
-            // database1DataSet14
-            // 
-            this.database1DataSet14.DataSetName = "Database1DataSet14";
-            this.database1DataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // salesTestBindingSource
-            // 
-            this.salesTestBindingSource.DataMember = "salesTest";
-            this.salesTestBindingSource.DataSource = this.database1DataSet14;
-            // 
-            // salesTestTableAdapter
-            // 
-            this.salesTestTableAdapter.ClearBeforeFill = true;
             // 
             // dateDataGridViewTextBoxColumn
             // 
@@ -421,22 +415,38 @@
             this.shiftDropDataGridViewTextBoxColumn.Name = "shiftDropDataGridViewTextBoxColumn";
             this.shiftDropDataGridViewTextBoxColumn.Width = 125;
             // 
+            // salesTestBindingSource
+            // 
+            this.salesTestBindingSource.DataMember = "salesTest";
+            this.salesTestBindingSource.DataSource = this.database1DataSet14;
+            // 
+            // database1DataSet14
+            // 
+            this.database1DataSet14.DataSetName = "Database1DataSet14";
+            this.database1DataSet14.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // salesTestTableAdapter
+            // 
+            this.salesTestTableAdapter.ClearBeforeFill = true;
+            // 
             // salesTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkRed;
-            this.ClientSize = new System.Drawing.Size(1319, 608);
+            this.ClientSize = new System.Drawing.Size(1484, 722);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel11);
+            this.Font = new System.Drawing.Font("MS Reference Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "salesTest";
             this.Text = "salesTest";
             this.Load += new System.EventHandler(this.salesTest_Load);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesTestBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet14)).EndInit();
             this.ResumeLayout(false);
 
         }
