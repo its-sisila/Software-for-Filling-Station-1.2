@@ -63,8 +63,7 @@ namespace Software_for_Filling_Station
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Salary salary = new Salary();
-            salary.Show();
+            
         }
 
         private void inventoryLabel_Click(object sender, EventArgs e)
@@ -159,8 +158,7 @@ namespace Software_for_Filling_Station
 
         private void attendanceLabel_Click(object sender, EventArgs e)
         {
-            Attendance2 Employee_Attendance = new Attendance2();
-            Employee_Attendance.Show();
+            
         }
     }
 }
